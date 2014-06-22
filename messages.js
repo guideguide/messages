@@ -537,9 +537,9 @@
     Messages.prototype.gnUnrecognized = function() {
       switch (this.i18n) {
         case "es_es":
-          return "Hueco no reconocido";
+          return "Comando no reconocido";
         default:
-          return "Unrecognized gap";
+          return "Unrecognized command";
       }
     };
 
