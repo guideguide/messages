@@ -81,13 +81,6 @@ class Messages
       else
         "Save set"
 
-  uiSaveSettings: =>
-    switch @i18n
-      when "es_es"
-        "Guardar ajustes"
-      else
-        "Save settings"
-
   uiImport: =>
     switch @i18n
       when "es_es"
@@ -207,20 +200,6 @@ class Messages
       else
         "Bottom"
 
-  uiYes: =>
-    switch @i18n
-      when "es_es"
-        "Si"
-      else
-        "Yes"
-
-  uiNo: =>
-    switch @i18n
-      when "es_es"
-        "No"
-      else
-        "No"
-
   uiNiceNo: =>
     switch @i18n
       when "es_es"
@@ -291,13 +270,6 @@ class Messages
   # Alert Messages
   # These are titles and messages for alert dialogues.
   #
-
-  alertTitleWelcome: =>
-    switch @i18n
-      when "es_es"
-        "Bienvenido a GuideGuide"
-      else
-        "Welcome to GuideGuide"
 
   alertTitleUpToDate: =>
     switch @i18n
