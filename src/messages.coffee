@@ -95,6 +95,15 @@ class Messages
       else
         "Export"
 
+  uiColumnMidpoint: =>
+    "Column midpoint"
+
+  uiRowMidpoint: =>
+    "Row midpoint"
+
+  uiGutterMidpoint: =>
+    "Gutter midpoint"
+
   uiOk: =>
     switch @i18n
       when "es_es"
