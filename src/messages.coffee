@@ -428,6 +428,7 @@ class Messages
   # These messages appear in the Custom field
   #
 
+  # Code: 1
   gnUnrecognized: =>
     switch @i18n
       when "es_es"
@@ -435,13 +436,7 @@ class Messages
       else
         "Unrecognized gap"
 
-  gnNoFillWildcards: =>
-    switch @i18n
-      when "es_es"
-        "Los comodines no pueden ser rellenos"
-      else
-        "Wildcards cannot be fills"
-
+  # Code: 2
   gnNoGrids: =>
     switch @i18n
       when "es_es"
@@ -449,6 +444,23 @@ class Messages
       else
         "This string does not contain any grids"
 
+  # Code: 3
+  gnNoFillWildcards: =>
+    switch @i18n
+      when "es_es"
+        "Los comodines no pueden ser rellenos"
+      else
+        "Wildcards cannot be fills"
+
+  # Code: 4
+  gnOneFillPerGrid: =>
+    switch @i18n
+      when "es_es"
+        "Una retícula sólo puede contener un relleno"
+      else
+        "A grid can only contain one fill"
+
+  # Code: 5
   gnFillInVariable: =>
     switch @i18n
       when "es_es"
@@ -456,19 +468,13 @@ class Messages
       else
         "Variables cannot contain a fill"
 
+  # Code: 6
   gnUndefinedVariable: =>
     switch @i18n
       when "es_es"
         "Variable no definida"
       else
         "Undefined variable"
-
-  gnOneFillPerGrid: =>
-    switch @i18n
-      when "es_es"
-        "Una retícula sólo puede contener un relleno"
-      else
-        "A grid can only contain one fill"
 
   gnStringFromExistingGuides: =>
     switch @i18n
