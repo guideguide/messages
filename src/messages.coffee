@@ -432,9 +432,9 @@ class Messages
   gnUnrecognized: =>
     switch @i18n
       when "es_es"
-        "Hueco no reconocido"
+        "Comando no reconocido"
       else
-        "Unrecognized gap"
+        "Unrecognized command"
 
   # Code: 2
   gnNoGrids: =>
