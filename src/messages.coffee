@@ -415,67 +415,53 @@ class Messages
         the development?"
 
   #
-  # GuideGuide Notation messages
+  # Grid notation messages
   # These messages appear in the Custom field
   #
 
-  gapUnrecognized: =>
+  gnUnrecognized: =>
     switch @i18n
       when "es_es"
         "Hueco no reconocido"
       else
         "Unrecognized gap"
 
-  gapNoFillWildcards: =>
+  gnNoFillWildcards: =>
     switch @i18n
       when "es_es"
         "Los comodines no pueden ser rellenos"
       else
         "Wildcards cannot be fills"
 
-  ggnNoGrids: =>
+  gnNoGrids: =>
     switch @i18n
       when "es_es"
         "Esta cadena no contiene ninguna retícula"
       else
         "This string does not contain any grids"
 
-  ggnFillInVariable: =>
+  gnFillInVariable: =>
     switch @i18n
       when "es_es"
         "Las variables no pueden contener un relleno"
       else
         "Variables cannot contain a fill"
 
-  ggnNoWildcardsInVariableFills: =>
-    switch @i18n
-      when "es_es"
-        "Una variable usada como relleno no puede contener un comodín"
-      else
-        "A variable used as a fill can not contain a wildcard"
-
-  ggnUndefinedVariable: =>
+  gnUndefinedVariable: =>
     switch @i18n
       when "es_es"
         "Variable no definida"
       else
         "Undefined variable"
 
-  ggnOneFillPerGrid: =>
+  gnOneFillPerGrid: =>
     switch @i18n
       when "es_es"
         "Una retícula sólo puede contener un relleno"
       else
         "A grid can only contain one fill"
 
-  ggnMoreThanOneHundredPercent: =>
-    switch @i18n
-      when "es_es"
-        "Una retícula no puede contener más del 100%"
-      else
-        "A grid cannot contain more than 100%"
-
-  ggnStringFromExistingGuides: =>
+  gnStringFromExistingGuides: =>
     switch @i18n
       when "es_es"
         "Cadena generada a partir de las guías existentes"
