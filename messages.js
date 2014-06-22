@@ -6,11 +6,11 @@
   Messages = (function() {
     function Messages(locale) {
       this.gnStringFromExistingGuides = __bind(this.gnStringFromExistingGuides, this);
-      this.gnOneFillPerGrid = __bind(this.gnOneFillPerGrid, this);
       this.gnUndefinedVariable = __bind(this.gnUndefinedVariable, this);
       this.gnFillInVariable = __bind(this.gnFillInVariable, this);
-      this.gnNoGrids = __bind(this.gnNoGrids, this);
+      this.gnOneFillPerGrid = __bind(this.gnOneFillPerGrid, this);
       this.gnNoFillWildcards = __bind(this.gnNoFillWildcards, this);
+      this.gnNoGrids = __bind(this.gnNoGrids, this);
       this.gnUnrecognized = __bind(this.gnUnrecognized, this);
       this.alertMessageDonate = __bind(this.alertMessageDonate, this);
       this.alertTitleDonate = __bind(this.alertTitleDonate, this);
@@ -54,6 +54,9 @@
       this.uiDonate = __bind(this.uiDonate, this);
       this.uiCancel = __bind(this.uiCancel, this);
       this.uiOk = __bind(this.uiOk, this);
+      this.uiGutterMidpoint = __bind(this.uiGutterMidpoint, this);
+      this.uiRowMidpoint = __bind(this.uiRowMidpoint, this);
+      this.uiColumnMidpoint = __bind(this.uiColumnMidpoint, this);
       this.uiExport = __bind(this.uiExport, this);
       this.uiImport = __bind(this.uiImport, this);
       this.uiSaveSet = __bind(this.uiSaveSet, this);
@@ -147,6 +150,18 @@
         default:
           return "Export";
       }
+    };
+
+    Messages.prototype.uiColumnMidpoint = function() {
+      return "Column midpoint";
+    };
+
+    Messages.prototype.uiRowMidpoint = function() {
+      return "Row midpoint";
+    };
+
+    Messages.prototype.uiGutterMidpoint = function() {
+      return "Gutter midpoint";
     };
 
     Messages.prototype.uiOk = function() {
@@ -528,6 +543,15 @@
       }
     };
 
+    Messages.prototype.gnNoGrids = function() {
+      switch (this.i18n) {
+        case "es_es":
+          return "Esta cadena no contiene ninguna retícula";
+        default:
+          return "This string does not contain any grids";
+      }
+    };
+
     Messages.prototype.gnNoFillWildcards = function() {
       switch (this.i18n) {
         case "es_es":
@@ -537,12 +561,12 @@
       }
     };
 
-    Messages.prototype.gnNoGrids = function() {
+    Messages.prototype.gnOneFillPerGrid = function() {
       switch (this.i18n) {
         case "es_es":
-          return "Esta cadena no contiene ninguna retícula";
+          return "Una retícula sólo puede contener un relleno";
         default:
-          return "This string does not contain any grids";
+          return "A grid can only contain one fill";
       }
     };
 
@@ -564,15 +588,6 @@
       }
     };
 
-    Messages.prototype.gnOneFillPerGrid = function() {
-      switch (this.i18n) {
-        case "es_es":
-          return "Una retícula sólo puede contener un relleno";
-        default:
-          return "A grid can only contain one fill";
-      }
-    };
-
     Messages.prototype.gnStringFromExistingGuides = function() {
       switch (this.i18n) {
         case "es_es":
@@ -589,7 +604,7 @@
   if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
     module.exports = Messages;
   } else {
-    window.messages = Messages;
+    window.Messages = Messages;
   }
 
 }).call(this);
