@@ -261,12 +261,11 @@ class Messages
       when "es_es"
         'Estos son los datos de un set de guías exportado por el plugin
         GuideGuide. Para importarlos, haz click en el botón "Importar" en los
-        ajustes de GuideGuide y pega la url de este Gist, o el contenido del
-        fichero `sets.json` en el campo de texto.'
+        ajustes de GuideGuide y pega la url de este Gist en el campo de texto.'
       else
         'This is guide set data exported by the GuideGuide plugin. To import
         them, click the "Import" button in the GuideGuide settings and paste
-        this Gist url, or the contents of `sets.json` into the text field.'
+        this Gist url into the text field.'
 
   helpImportExport: =>
     switch @i18n
