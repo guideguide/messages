@@ -74,19 +74,19 @@ class Messages
       else
         "Save set"
 
-  uiImport: =>
+  uiImportSets: =>
     switch @i18n
       when "es_es"
-        "Importar"
+        "Importar sets"
       else
-        "Import"
+        "Import sets"
 
-  uiExport: =>
+  uiExportSets: =>
     switch @i18n
       when "es_es"
-        "Exportar"
+        "Exportar sets"
       else
-        "Export"
+        "Export sets"
 
   uiColumnMidpoint: =>
     "Column midpoint"
