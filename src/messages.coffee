@@ -53,13 +53,6 @@ class Messages
       else
         "Sets"
 
-  uiUpdates: =>
-    switch @i18n
-      when "es_es"
-        "Actualizaciones"
-      else
-        "Updates"
-
   uiDebug: =>
     switch @i18n
       when "es_es"
@@ -228,26 +221,6 @@ class Messages
   # These are essentially tooltips. They appear in the UI to explain features.
   #
 
-  helpPosition: =>
-    switch @i18n
-      when "es_es"
-        "Determina dónde coloca GuideGuide una retícula cuando es más pequeña
-        que el área disponible."
-      else
-        "This determines where GuideGuide puts a grid when it is smaller
-        than the available area."
-
-  helpRemainder: =>
-    switch @i18n
-      when "es_es"
-        "En modo pixel, GuideGuide redondea hacia abajo los anchos con píxeles
-        decimales y usa este ajuste para determinar qué columnas o filas reciben
-        los pixels sobrantes."
-      else
-        "In pixel mode, GuideGuide rounds down decimal pixel widths
-        and uses this setting to determine which columns or rows receive
-        the remainder pixels."
-
   helpImportDesc: =>
     switch @i18n
       when "es_es"
@@ -266,13 +239,6 @@ class Messages
         'This is guide set data exported by the GuideGuide plugin. To import
         them, click the "Import" button in the GuideGuide settings and paste
         this Gist url into the text field.'
-
-  helpImportExport: =>
-    switch @i18n
-      when "es_es"
-        "GuideGuide importa y exporta sus datos mediante"
-      else
-        "GuideGuide imports and exports its data via"
 
   #
   # Alert Messages
