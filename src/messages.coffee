@@ -180,6 +180,12 @@ class Messages
       else
         "Cancel"
 
+  uiOn: =>
+    "On"
+
+  uiOff: =>
+    "Off"
+
   uiDonate: =>
     switch @i18n
       when "es_es"
@@ -213,6 +219,9 @@ class Messages
         "Mostrar logs"
       else
         "Show logs"
+
+  uiSnapToPixels: =>
+    "Snap to pixels"
 
   uiHorizontalPosition: =>
     switch @i18n

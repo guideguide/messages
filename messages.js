@@ -46,9 +46,12 @@
       this.uiHorizontalRemainder = __bind(this.uiHorizontalRemainder, this);
       this.uiVerticalPosition = __bind(this.uiVerticalPosition, this);
       this.uiHorizontalPosition = __bind(this.uiHorizontalPosition, this);
+      this.uiSnapToPixels = __bind(this.uiSnapToPixels, this);
       this.uiShowLogs = __bind(this.uiShowLogs, this);
       this.uiCheckForUpdates = __bind(this.uiCheckForUpdates, this);
       this.uiDonate = __bind(this.uiDonate, this);
+      this.uiOff = __bind(this.uiOff, this);
+      this.uiOn = __bind(this.uiOn, this);
       this.uiCancel = __bind(this.uiCancel, this);
       this.uiOk = __bind(this.uiOk, this);
       this.uiGutterMidpoint = __bind(this.uiGutterMidpoint, this);
@@ -169,6 +172,14 @@
       }
     };
 
+    Messages.prototype.uiOn = function() {
+      return "On";
+    };
+
+    Messages.prototype.uiOff = function() {
+      return "Off";
+    };
+
     Messages.prototype.uiDonate = function() {
       switch (this.i18n) {
         case "es_es":
@@ -194,6 +205,10 @@
         default:
           return "Show logs";
       }
+    };
+
+    Messages.prototype.uiSnapToPixels = function() {
+      return "Snap to pixels";
     };
 
     Messages.prototype.uiHorizontalPosition = function() {
