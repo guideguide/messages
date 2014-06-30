@@ -21,6 +21,8 @@ class Messages
   # Currently supported locales:
   #   - English: en_us
   #       credit: https://github.com/cameronmcefee
+  #   - French: fr_fr
+  #       credit: https://github.com/PECourtejoie
   #   - Spanish: es_es
   #       credit: https://github.com/bomberstudios
   #
@@ -34,6 +36,8 @@ class Messages
 
   uiGrid: =>
     switch @i18n
+      when "fr_fr"
+        "Grille"
       when "es_es"
         "Retícula"
       else
@@ -41,6 +45,8 @@ class Messages
 
   uiCustom: =>
     switch @i18n
+      when "fr_fr"
+        "Personnalisée"
       when "es_es"
         "Personalizada"
       else
@@ -48,6 +54,8 @@ class Messages
 
   uiSets: =>
     switch @i18n
+      when "fr_fr"
+        "Groupes"
       when "es_es"
         "Sets"
       else
@@ -55,6 +63,8 @@ class Messages
 
   uiDebug: =>
     switch @i18n
+      when "fr_fr"
+        "Débugger"
       when "es_es"
         "Debug"
       else
@@ -62,6 +72,8 @@ class Messages
 
   uiMakeGrid: =>
     switch @i18n
+      when "fr_fr"
+        "Créer une grille"
       when "es_es"
         "Crear retícula"
       else
@@ -69,6 +81,8 @@ class Messages
 
   uiSaveSet: =>
     switch @i18n
+      when "fr_fr"
+        "Enregistrer le groupe"
       when "es_es"
         "Guardar set"
       else
@@ -76,6 +90,8 @@ class Messages
 
   uiImportSets: =>
     switch @i18n
+      when "fr_fr"
+        "Importer les groupes"
       when "es_es"
         "Importar sets"
       else
@@ -83,22 +99,38 @@ class Messages
 
   uiExportSets: =>
     switch @i18n
+      when "fr_fr"
+        "Exporter les groupes"
       when "es_es"
         "Exportar sets"
       else
         "Export sets"
 
   uiColumnMidpoint: =>
-    "Column midpoint"
+    switch @i18n
+      when "fr_fr"
+        "Point central des colonnes"
+      else
+        "Column midpoint"
 
   uiRowMidpoint: =>
-    "Row midpoint"
+    switch @i18n
+      when "fr_fr"
+        "Point central des rangées"
+      else
+        "Row midpoint"
 
   uiGutterMidpoint: =>
-    "Gutter midpoint"
+    switch @i18n
+      when "fr_fr"
+        "Point central des gouttières"
+      else
+        "Gutter midpoint"
 
   uiOk: =>
     switch @i18n
+      when "fr_fr"
+        "Ok"
       when "es_es"
         "Ok"
       else
@@ -106,6 +138,8 @@ class Messages
 
   uiCancel: =>
     switch @i18n
+      when "fr_fr"
+        "Annuler"
       when "es_es"
         "Cancelar"
       else
@@ -113,6 +147,8 @@ class Messages
 
   uiDonate: =>
     switch @i18n
+      when "fr_fr"
+        "Donner"
       when "es_es"
         "Donar"
       else
@@ -120,6 +156,8 @@ class Messages
 
   uiCheckForUpdates: =>
     switch @i18n
+      when "fr_fr"
+        "Recherche de mises à jour"
       when "es_es"
         "Buscar actualizaciones"
       else
@@ -127,6 +165,8 @@ class Messages
 
   uiShowLogs: =>
     switch @i18n
+      when "fr_fr"
+        "Montrer le journal"
       when "es_es"
         "Mostrar logs"
       else
@@ -134,6 +174,8 @@ class Messages
 
   uiHorizontalPosition: =>
     switch @i18n
+      when "fr_fr"
+        "Position horizontale"
       when "es_es"
         "Posición horizontal"
       else
@@ -141,6 +183,8 @@ class Messages
 
   uiVerticalPosition: =>
     switch @i18n
+      when "fr_fr"
+        "Position verticale"
       when "es_es"
         "Posición vertical"
       else
@@ -148,6 +192,8 @@ class Messages
 
   uiHorizontalRemainder: =>
     switch @i18n
+      when "fr_fr"
+        "Reste horizontal"
       when "es_es"
         "Resto horizontal"
       else
@@ -155,6 +201,8 @@ class Messages
 
   uiVerticalRemainder: =>
     switch @i18n
+      when "fr_fr"
+        "Reste vertical"
       when "es_es"
         "Resto vertical"
       else
@@ -162,6 +210,8 @@ class Messages
 
   uiHorizontalFirst: =>
     switch @i18n
+      when "fr_fr"
+        "Gauche"
       when "es_es"
         "Izquierda"
       else
@@ -169,6 +219,8 @@ class Messages
 
   uiHorizontalCenter: =>
     switch @i18n
+      when "fr_fr"
+        "Centre"
       when "es_es"
         "Centro"
       else
@@ -176,6 +228,8 @@ class Messages
 
   uiHorizontalLast: =>
     switch @i18n
+      when "fr_fr"
+        "Droite"
       when "es_es"
         "Derecha"
       else
@@ -183,6 +237,8 @@ class Messages
 
   uiVerticalFirst: =>
     switch @i18n
+      when "fr_fr"
+        "Haut"
       when "es_es"
         "Arriba"
       else
@@ -190,6 +246,8 @@ class Messages
 
   uiVerticalCenter: =>
     switch @i18n
+      when "fr_fr"
+        "Centre"
       when "es_es"
         "Centro"
       else
@@ -197,6 +255,8 @@ class Messages
 
   uiVerticalLast: =>
     switch @i18n
+      when "fr_fr"
+        "Bas"
       when "es_es"
         "Abajo"
       else
@@ -204,6 +264,8 @@ class Messages
 
   uiNiceNo: =>
     switch @i18n
+      when "fr_fr"
+        "Non merci"
       when "es_es"
         "No, gracias"
       else
@@ -211,6 +273,8 @@ class Messages
 
   uiOpenInBrowser: =>
     switch @i18n
+      when "fr_fr"
+        "Ouvrir dans un navigateur"
       when "es_es"
         "Abrir en navegador"
       else
@@ -223,6 +287,8 @@ class Messages
 
   helpImportDesc: =>
     switch @i18n
+      when "fr_fr"
+        "Importer des groupes en collant un url Github Gist dans le champ de texte ci-dessous"
       when "es_es"
         "Importa sets pegando una url de GitHub Gist en el campo de texto de
         abajo."
@@ -231,6 +297,10 @@ class Messages
 
   helpGistExport: =>
     switch @i18n
+      when "fr_fr"
+        'Ceci est un groupe de données de guides exporté par le plugin GuideGuide.
+        Pour les importer, cliquez sur le bouton "importer" dans les réglages de GuideGuide
+        et collez cet url Gist dans le champ texte'
       when "es_es"
         'Estos son los datos de un set de guías exportado por el plugin
         GuideGuide. Para importarlos, haz click en el botón "Importar" en los
@@ -247,6 +317,8 @@ class Messages
 
   alertTitleUpToDate: =>
     switch @i18n
+      when "fr_fr"
+        "À jour"
       when "es_es"
         "Estás al día"
       else
@@ -254,6 +326,8 @@ class Messages
 
   alertMessageUpToDate: =>
     switch @i18n
+      when "fr_fr"
+        "Ceci est la version la plus récente de GuideGuide"
       when "es_es"
         "Ya tienes la última versión de GuideGuide."
       else
@@ -261,6 +335,8 @@ class Messages
 
   alertTitleUpdateError: =>
     switch @i18n
+      when "fr_fr"
+        "Erreur lors de la recherche de mises à jour"
       when "es_es"
         "Error buscando actualizaciones"
       else
@@ -268,6 +344,9 @@ class Messages
 
   alertMessageUpdateError: =>
     switch @i18n
+      when "fr_fr"
+        "Malheureusement, GuideGuide ne peut chercher des mises à jour maintenant
+        Merci de réessayer plus tard"
       when "es_es"
         "Desgraciadamente, GuideGuide no ha sido capaz de buscar actualizaciones
         en este momento. Por favor, inténtalo de nuevo más adelante."
@@ -276,13 +355,21 @@ class Messages
         Please try again later."
 
   alertTitleUpdate: =>
-    "Updates available"
+      when "fr_fr"
+        "Mise à jour disponible"
+      else
+        "Updates available"
 
   alertMessageUpdate: =>
-    "Update GuideGuide to get the latest version."
+      when "fr_fr"
+        "Mettez GuideGuide à jour pour obtenir la version la plus récente"
+      else
+        "Update GuideGuide to get the latest version."
 
   alertTitleImportSuccess: =>
     switch @i18n
+      when "fr_fr"
+        "Groupes importés"
       when "es_es"
         "Sets importados"
       else
@@ -290,6 +377,8 @@ class Messages
 
   alertMessageImportSuccess: =>
     switch @i18n
+      when "fr_fr"
+        "Vos groupes ont été importés avec succès."
       when "es_es"
         "Tus sets se han importado correctamente."
       else
@@ -297,6 +386,8 @@ class Messages
 
   alertTitleImportGistError: =>
     switch @i18n
+      when "fr_fr"
+        "Erreur d'importation"
       when "es_es"
         "Error de Importación"
       else
@@ -304,6 +395,9 @@ class Messages
 
   alertMessageImportGistError: =>
     switch @i18n
+      when "fr_fr"
+        "Malheureusement, GuideGuide ne peut importer des groupes maintenant.
+        Merci de réessayer plus tard."
       when "es_es"
         "Desgraciadamente, GuideGuide no ha sido capaz de importar sets en este
         momento. Por favor, inténtalo de nuevo más adelante."
@@ -313,6 +407,8 @@ class Messages
 
   alertTitleImportGistNoSets: =>
     switch @i18n
+      when "fr_fr"
+        "Erreur d'importation"
       when "es_es"
         "Error de Importación"
       else
@@ -320,6 +416,8 @@ class Messages
 
   alertMessageImportGistNoSets: =>
     switch @i18n
+      when "fr_fr"
+        "GuideGuide n'a pas trouvé de document sets.json dans ce Gist."
       when "es_es"
         "GuideGuide no ha sido capaz de encontrar sets.json en este Gist."
       else
@@ -327,6 +425,8 @@ class Messages
 
   alertTitleImportNotGist: =>
     switch @i18n
+      when "fr_fr"
+        "Erreur d'importation"
       when "es_es"
         "Error de Importación"
       else
@@ -334,6 +434,8 @@ class Messages
 
   alertMessageImportNotGist: =>
     switch @i18n
+      when "fr_fr"
+        "Le texte d'entrée ne contient pas d'url GitHub Gist."
       when "es_es"
         "El texto de entrada no contiene una url de GitHub Gist."
       else
@@ -341,6 +443,8 @@ class Messages
 
   alertTitleExportSuccess: =>
     switch @i18n
+      when "fr_fr"
+        "Les groupes ont été exportés"
       when "es_es"
         "Sets exportados"
       else
@@ -349,6 +453,8 @@ class Messages
   alertMessageExportSuccess: (url) =>
     button = "<div><strong><a class='js-link button export-button' href='#{ url }'>#{ @uiOpenInBrowser() }</a></strong></div>"
     switch @i18n
+      when "fr_fr"
+        "Vos groupes ont été exportés dans un Github Gist secret. #{ button }"
       when "es_es"
         "Tus sets han sido exportados a un GitHub Gist secreto. #{ button }"
       else
@@ -357,12 +463,17 @@ class Messages
   alertTitleExportError: =>
     switch @i18n
       when "es_es"
+        "Impossible d'exporter"
+      when "es_es"
         "Imposible exportar"
       else
         "Unable to export"
 
   alertMessageExportError: =>
     switch @i18n
+      when "fr_fr"
+        "Malheureusement, GuideGuide ne peut exporter des groupes maintenant.
+        Merci de réessayer plus tard."
       when "es_es"
         "Desgraciadamente, GuideGuide no ha sido capaz de exportar sets en este
         momento. Por favor, inténtalo de nuevo más adelante."
@@ -372,6 +483,8 @@ class Messages
 
   alertTitleDonate: =>
     switch @i18n
+      when "fr_fr"
+        "Voulez-vous faire un don ?"
       when "es_es"
         "¿Te gustaría donar?"
       else
@@ -379,6 +492,10 @@ class Messages
 
   alertMessageDonate: =>
     switch @i18n
+      when "fr_fr"
+        "Wow, vous avez utilisé GuideGuide 30 fois ! Vu que vous semblez l'utiliser
+        souvent, avez-vous pensé à effectuer une donation pour contribuer
+        à son développement ?" 
       when "es_es"
         "¡Vaya, ya has usado GuideGuide 30 veces! Parece que le estás sacando
         bastante partido a GuideGuide, ¿te interesaría hacer una donación para
@@ -396,6 +513,8 @@ class Messages
   # Code: 1
   gnUnrecognized: =>
     switch @i18n
+      when "fr_fr"
+        "Commande inconnue"
       when "es_es"
         "Comando no reconocido"
       else
@@ -404,6 +523,8 @@ class Messages
   # Code: 2
   gnNoGrids: =>
     switch @i18n
+      when "fr_fr"
+        "Cette chaîne ne contient aucune grille"
       when "es_es"
         "Esta cadena no contiene ninguna retícula"
       else
@@ -412,6 +533,8 @@ class Messages
   # Code: 3
   gnNoFillWildcards: =>
     switch @i18n
+      when "fr_fr"
+        "Les jokers ne peuvent être du remplissage"
       when "es_es"
         "Los comodines no pueden ser rellenos"
       else
@@ -420,6 +543,8 @@ class Messages
   # Code: 4
   gnOneFillPerGrid: =>
     switch @i18n
+      when "fr_fr"
+        "Une grille ne peut contenir qu'un remplissage"
       when "es_es"
         "Una retícula sólo puede contener un relleno"
       else
@@ -428,6 +553,8 @@ class Messages
   # Code: 5
   gnFillInVariable: =>
     switch @i18n
+      when "fr_fr"
+        "Les variables ne peuvent contenir qu'un remplissage"
       when "es_es"
         "Las variables no pueden contener un relleno"
       else
@@ -436,6 +563,8 @@ class Messages
   # Code: 6
   gnUndefinedVariable: =>
     switch @i18n
+      when "fr_fr"
+        "Variable indéfini"
       when "es_es"
         "Variable no definida"
       else
@@ -443,6 +572,8 @@ class Messages
 
   gnStringFromExistingGuides: =>
     switch @i18n
+      when "fr_fr"
+        "Chaîne générée à partir de code existant"
       when "es_es"
         "Cadena generada a partir de las guías existentes"
       else
