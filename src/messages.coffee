@@ -23,6 +23,8 @@ class Messages
   #       credit: https://github.com/cameronmcefee
   #   - Spanish: es_es
   #       credit: https://github.com/bomberstudios
+  #   - Portuguese: pt_br
+  #       credit: https://github.com/thiagotomasi
   #
   constructor: (locale) ->
     @i18n = locale if locale?
@@ -36,12 +38,16 @@ class Messages
     switch @i18n
       when "es_es"
         "Retícula"
+      when "pt_br"
+        "Grid"
       else
         "Grid"
 
   uiCustom: =>
     switch @i18n
       when "es_es"
+        "Personalizada"
+      when "pt_br"
         "Personalizada"
       else
         "Custom"
@@ -50,12 +56,16 @@ class Messages
     switch @i18n
       when "es_es"
         "Sets"
+      when "pt_br"
+        "Sets"
       else
         "Sets"
 
   uiDebug: =>
     switch @i18n
       when "es_es"
+        "Debug"
+      when "pt_br"
         "Debug"
       else
         "Debug"
@@ -64,6 +74,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Crear retícula"
+      when "pt_br"
+        "Criar grid"
       else
         "Make grid"
 
@@ -71,6 +83,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Guardar set"
+      when "pt_br"
+        "Salvar set"
       else
         "Save set"
 
@@ -78,12 +92,16 @@ class Messages
     switch @i18n
       when "es_es"
         "Importar sets"
+      when "pt_br"
+        "Importar sets"
       else
         "Import sets"
 
   uiExportSets: =>
     switch @i18n
       when "es_es"
+        "Exportar sets"
+      when "pt_br"
         "Exportar sets"
       else
         "Export sets"
@@ -101,12 +119,16 @@ class Messages
     switch @i18n
       when "es_es"
         "Ok"
+      when "pt_br"
+        "Ok"
       else
         "Ok"
 
   uiCancel: =>
     switch @i18n
       when "es_es"
+        "Cancelar"
+      when "pt_br"
         "Cancelar"
       else
         "Cancel"
@@ -115,6 +137,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Donar"
+      when "pt_br"
+        "Doar"
       else
         "Donate"
 
@@ -122,12 +146,16 @@ class Messages
     switch @i18n
       when "es_es"
         "Buscar actualizaciones"
+      when "pt_br"
+        "Buscar atualizações"
       else
         "Check for updates"
 
   uiShowLogs: =>
     switch @i18n
       when "es_es"
+        "Mostrar logs"
+      when "pt_br"
         "Mostrar logs"
       else
         "Show logs"
@@ -136,6 +164,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Posición horizontal"
+      when "pt_br"
+        "Posição horizontal"
       else
         "Horizontal position"
 
@@ -143,6 +173,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Posición vertical"
+      when "pt_br"
+        "Posição vertical"
       else
         "Vertical position"
 
@@ -150,6 +182,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Resto horizontal"
+      when "pt_br"
+        "Restante horizontal"
       else
         "Horizontal remainder"
 
@@ -157,6 +191,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Resto vertical"
+      when "pt_br"
+        "Restante vertical"
       else
         "Vertical remainder"
 
@@ -164,12 +200,16 @@ class Messages
     switch @i18n
       when "es_es"
         "Izquierda"
+      when "pt_br"
+        "Esquerda"
       else
         "Left"
 
   uiHorizontalCenter: =>
     switch @i18n
       when "es_es"
+        "Centro"
+      when "pt_br"
         "Centro"
       else
         "Center"
@@ -178,6 +218,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Derecha"
+      when "pt_br"
+        "Direita"
       else
         "Right"
 
@@ -185,12 +227,16 @@ class Messages
     switch @i18n
       when "es_es"
         "Arriba"
+      when "pt_br"
+        "Acima"
       else
         "Top"
 
   uiVerticalCenter: =>
     switch @i18n
       when "es_es"
+        "Centro"
+      when "pt_br"
         "Centro"
       else
         "Center"
@@ -199,6 +245,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Abajo"
+      when "pt_br"
+        "Abaixo"
       else
         "Bottom"
 
@@ -206,6 +254,8 @@ class Messages
     switch @i18n
       when "es_es"
         "No, gracias"
+      when "pt_br"
+        "Não, obrigado"
       else
         "No thanks"
 
@@ -213,6 +263,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Abrir en navegador"
+      when "pt_br"
+        "Abrir no navegador"
       else
         "Open in browser"
 
@@ -226,6 +278,8 @@ class Messages
       when "es_es"
         "Importa sets pegando una url de GitHub Gist en el campo de texto de
         abajo."
+      when "pt_br"
+        "Importar os sets colando uma URL de GitHub Gist no campo de texto abaixo."
       else
         "Import sets by pasting a GitHub Gist url in the text field below."
 
@@ -235,6 +289,10 @@ class Messages
         'Estos son los datos de un set de guías exportado por el plugin
         GuideGuide. Para importarlos, haz click en el botón "Importar" en los
         ajustes de GuideGuide y pega la url de este Gist en el campo de texto.'
+      when "pt_br"
+        'Este é o guia de dados de set exportados pelo plugin GuideGuide. Para importar 
+         -lo, clique no botão "Importar" nas configurações do GuideGuide e cole a url do
+         Gist no campo de texto'
       else
         'This is guide set data exported by the GuideGuide plugin. To import
         them, click the "Import" button in the GuideGuide settings and paste
@@ -249,6 +307,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Estás al día"
+      when "pt_br"
+        "Esta atualizado"
       else
         "Up to date"
 
@@ -256,6 +316,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Ya tienes la última versión de GuideGuide."
+      when "pt_br"
+        "O GuideGuide está atualizado com a última versão."
       else
         "GuideGuide is currently up to date."
 
@@ -263,6 +325,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Error buscando actualizaciones"
+      when "pt_br"
+        "Erro na verificação de atualizações"
       else
         "Error checking for updates"
 
@@ -271,6 +335,9 @@ class Messages
       when "es_es"
         "Desgraciadamente, GuideGuide no ha sido capaz de buscar actualizaciones
         en este momento. Por favor, inténtalo de nuevo más adelante."
+      when "pt_br"
+        "Infelizmente, GuideGuide foi incapaz de verificar se há atualizações neste momento. 
+         Por favor, tente novamente mais tarde."
       else
         "Unfortunately, GuideGuide is unable to check for updates at this time.
         Please try again later."
@@ -285,6 +352,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Sets importados"
+      when "pt_br"
+        "Sets importados"
       else
         "Sets imported"
 
@@ -292,6 +361,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Tus sets se han importado correctamente."
+      when "pt_br"
+        "Seus sets foram importados corretamente."
       else
         "Your sets have successfully been imported."
 
@@ -299,6 +370,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Error de Importación"
+      when "pt_br"
+        "Erro na importação"
       else
         "Import Error"
 
@@ -307,6 +380,9 @@ class Messages
       when "es_es"
         "Desgraciadamente, GuideGuide no ha sido capaz de importar sets en este
         momento. Por favor, inténtalo de nuevo más adelante."
+      when "pt_br"
+        "Infelizmente, o GuideGuide não foi capaz de importar os sets neste
+        momento. Por favor, tente novamente mais tarde."
       else
         "Unfortunately, GuideGuide is unable to import sets at this time.
         Please try again later."
@@ -315,6 +391,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Error de Importación"
+      when "pt_br"
+        "Erro na importação"
       else
         "Import error"
 
@@ -322,6 +400,8 @@ class Messages
     switch @i18n
       when "es_es"
         "GuideGuide no ha sido capaz de encontrar sets.json en este Gist."
+      when "pt_br"
+        "O GuideGuide não foi capaz de encontrar o arquivo sets.json neste Gist."
       else
         "GuideGuide was not able to find sets.json in this Gist."
 
@@ -329,6 +409,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Error de Importación"
+      when "pt_br"
+        "Erro na importação"
       else
         "Import Error"
 
@@ -336,6 +418,8 @@ class Messages
     switch @i18n
       when "es_es"
         "El texto de entrada no contiene una url de GitHub Gist."
+      when "pt_br"
+        "O texto de entrada não contém uma url do GitHub Gist."
       else
         "The input text does not contain a GitHub Gist url."
 
@@ -343,6 +427,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Sets exportados"
+      when "pt_br"
+        "Configurações exportadas"
       else
         "Sets have been exported"
 
@@ -351,6 +437,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Tus sets han sido exportados a un GitHub Gist secreto. #{ button }"
+      when "pt_br"
+        "Seus sets foram exportadas para um GitHub Gist secreto. #{ button }"
       else
         "Your sets have been exported to a secret GitHub Gist. #{ button }"
 
@@ -358,6 +446,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Imposible exportar"
+      when "pt_br"
+        "Impossivel exportar"
       else
         "Unable to export"
 
@@ -366,6 +456,9 @@ class Messages
       when "es_es"
         "Desgraciadamente, GuideGuide no ha sido capaz de exportar sets en este
         momento. Por favor, inténtalo de nuevo más adelante."
+      when "pt_br"
+        "Infelizmente, o GuideGuide não foi capaz de exportar os sets neste
+        momento. Por favor, tente novamente mais tarde."
       else
         "Unfortunately, GuideGuide is unable to export sets at this time.
         Please try again later."
@@ -374,6 +467,8 @@ class Messages
     switch @i18n
       when "es_es"
         "¿Te gustaría donar?"
+      when "pt_br"
+        "Gostaria de doar?"
       else
         "Would you like to donate?"
 
@@ -383,6 +478,9 @@ class Messages
         "¡Vaya, ya has usado GuideGuide 30 veces! Parece que le estás sacando
         bastante partido a GuideGuide, ¿te interesaría hacer una donación para
         contribuir a su desarrollo?"
+      when "pt_br"
+        "Yowza, você já usou o GuideGuide 30 vezes! Parece que o GuideGuide anda
+        sendo bem útil, Você consideraria fazer uma doação para o desenvolvimento?"
       else
         "Yowza, you've used GuideGuide 30 times! Since you seem to get quite a
         bit of use out of GuideGuide, would you consider making a donation to
@@ -398,6 +496,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Comando no reconocido"
+      when "pt_br"
+        "Comando desconhecido"
       else
         "Unrecognized command"
 
@@ -406,6 +506,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Esta cadena no contiene ninguna retícula"
+      when "pt_br"
+        "Esta palavra não contém nenhuma grids"
       else
         "This string does not contain any grids"
 
@@ -414,6 +516,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Los comodines no pueden ser rellenos"
+      when "pt_br"
+        "Wildcards não podem ser preenchido"
       else
         "Wildcards cannot be fills"
 
@@ -422,6 +526,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Una retícula sólo puede contener un relleno"
+      when "pt_br"
+        "Uma grid só pode conter um preenchimento"
       else
         "A grid can only contain one fill"
 
@@ -430,6 +536,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Las variables no pueden contener un relleno"
+      when "pt_br"
+        "As variáveis ​​não podem conter um preenchimento"
       else
         "Variables cannot contain a fill"
 
@@ -438,6 +546,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Variable no definida"
+      when "pt_br"
+        "Variável não definida"
       else
         "Undefined variable"
 
@@ -445,6 +555,8 @@ class Messages
     switch @i18n
       when "es_es"
         "Cadena generada a partir de las guías existentes"
+      when "pt_br"
+        "Palavra gerada a partir das guias existentes"
       else
         "String generated from existing guides"
 
