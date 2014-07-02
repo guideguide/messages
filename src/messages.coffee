@@ -126,6 +126,8 @@ class Messages
 
   uiColumnMidpoint: =>
     switch @i18n
+      when "es_es"
+        "Punto medio de columna"
       when "fr_fr"
         "Point central des colonnes"
       when "pt_br"
@@ -135,6 +137,8 @@ class Messages
 
   uiRowMidpoint: =>
     switch @i18n
+      when "es_es"
+        "Punto medio de fila"
       when "fr_fr"
         "Point central des rangées"
       when "pt_br"
@@ -144,6 +148,8 @@ class Messages
 
   uiGutterMidpoint: =>
     switch @i18n
+      when "es_es"
+        "Punto medio del medianil"
       when "fr_fr"
         "Point central des gouttières"
       when "pt_br"
@@ -428,6 +434,8 @@ class Messages
         Please try again later."
 
   alertTitleUpdate: =>
+      when "es_es"
+        "Actualizaciones disponibles"
       when "fr_fr"
         "Mise à jour disponible"
       when "pt_br"
@@ -436,6 +444,8 @@ class Messages
         "Updates available"
 
   alertMessageUpdate: =>
+      when "es_es"
+        "Actualiza GuideGuide para obtener la última versión"
       when "fr_fr"
         "Mettez GuideGuide à jour pour obtenir la version la plus récente"
       when "pt_br"
