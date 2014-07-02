@@ -128,6 +128,8 @@ class Messages
     switch @i18n
       when "fr_fr"
         "Point central des colonnes"
+      when "pt_br"
+        "Ponto central da coluna"
       else
         "Column midpoint"
 
@@ -135,6 +137,8 @@ class Messages
     switch @i18n
       when "fr_fr"
         "Point central des rangées"
+      when "pt_br"
+        "Ponto central da linha"
       else
         "Row midpoint"
 
@@ -142,6 +146,8 @@ class Messages
     switch @i18n
       when "fr_fr"
         "Point central des gouttières"
+      when "pt_br"
+        "Ponto central do espaçamento"
       else
         "Gutter midpoint"
 
@@ -424,12 +430,16 @@ class Messages
   alertTitleUpdate: =>
       when "fr_fr"
         "Mise à jour disponible"
+      when "pt_br"
+        "Atualizações disponíveis"
       else
         "Updates available"
 
   alertMessageUpdate: =>
       when "fr_fr"
         "Mettez GuideGuide à jour pour obtenir la version la plus récente"
+      when "pt_br"
+        "Atualize o GuideGuide para obter a versão mais recente."
       else
         "Update GuideGuide to get the latest version."
 
