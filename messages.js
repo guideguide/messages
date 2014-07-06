@@ -61,6 +61,7 @@
       this.uiImportSets = __bind(this.uiImportSets, this);
       this.uiSaveSet = __bind(this.uiSaveSet, this);
       this.uiMakeGrid = __bind(this.uiMakeGrid, this);
+      this.uiClearForm = __bind(this.uiClearForm, this);
       this.uiDebug = __bind(this.uiDebug, this);
       this.uiSets = __bind(this.uiSets, this);
       this.uiCustom = __bind(this.uiCustom, this);
@@ -74,6 +75,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Retícula";
+        case "fr_fr":
+          return "Grille";
+        case "pt_br":
+          return "Grid";
         default:
           return "Grid";
       }
@@ -82,6 +87,10 @@
     Messages.prototype.uiCustom = function() {
       switch (this.i18n) {
         case "es_es":
+          return "Personalizada";
+        case "fr_fr":
+          return "Personnalisée";
+        case "pt_br":
           return "Personalizada";
         default:
           return "Custom";
@@ -92,6 +101,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Sets";
+        case "fr_fr":
+          return "Groupes";
+        case "pt_br":
+          return "Sets";
         default:
           return "Sets";
       }
@@ -101,15 +114,27 @@
       switch (this.i18n) {
         case "es_es":
           return "Debug";
+        case "fr_fr":
+          return "Débugger";
+        case "pt_br":
+          return "Debug";
         default:
           return "Debug";
       }
+    };
+
+    Messages.prototype.uiClearForm = function() {
+      return "Clear form";
     };
 
     Messages.prototype.uiMakeGrid = function() {
       switch (this.i18n) {
         case "es_es":
           return "Crear retícula";
+        case "fr_fr":
+          return "Créer une grille";
+        case "pt_br":
+          return "Criar grid";
         default:
           return "Make grid";
       }
@@ -119,6 +144,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Guardar set";
+        case "fr_fr":
+          return "Enregistrer le groupe";
+        case "pt_br":
+          return "Salvar set";
         default:
           return "Save set";
       }
@@ -127,6 +156,10 @@
     Messages.prototype.uiImportSets = function() {
       switch (this.i18n) {
         case "es_es":
+          return "Importar sets";
+        case "fr_fr":
+          return "Importer les groupes";
+        case "pt_br":
           return "Importar sets";
         default:
           return "Import sets";
@@ -137,26 +170,61 @@
       switch (this.i18n) {
         case "es_es":
           return "Exportar sets";
+        case "fr_fr":
+          return "Exporter les groupes";
+        case "pt_br":
+          return "Exportar sets";
         default:
           return "Export sets";
       }
     };
 
     Messages.prototype.uiColumnMidpoint = function() {
-      return "Column midpoint";
+      switch (this.i18n) {
+        case "es_es":
+          return "Punto medio de columna";
+        case "fr_fr":
+          return "Point central des colonnes";
+        case "pt_br":
+          return "Ponto central da coluna";
+        default:
+          return "Column midpoint";
+      }
     };
 
     Messages.prototype.uiRowMidpoint = function() {
-      return "Row midpoint";
+      switch (this.i18n) {
+        case "es_es":
+          return "Punto medio de fila";
+        case "fr_fr":
+          return "Point central des rangées";
+        case "pt_br":
+          return "Ponto central da linha";
+        default:
+          return "Row midpoint";
+      }
     };
 
     Messages.prototype.uiGutterMidpoint = function() {
-      return "Gutter midpoint";
+      switch (this.i18n) {
+        case "es_es":
+          return "Punto medio del medianil";
+        case "fr_fr":
+          return "Point central des gouttières";
+        case "pt_br":
+          return "Ponto central do espaçamento";
+        default:
+          return "Gutter midpoint";
+      }
     };
 
     Messages.prototype.uiOk = function() {
       switch (this.i18n) {
         case "es_es":
+          return "Ok";
+        case "fr_fr":
+          return "Ok";
+        case "pt_br":
           return "Ok";
         default:
           return "Ok";
@@ -166,6 +234,10 @@
     Messages.prototype.uiCancel = function() {
       switch (this.i18n) {
         case "es_es":
+          return "Cancelar";
+        case "fr_fr":
+          return "Annuler";
+        case "pt_br":
           return "Cancelar";
         default:
           return "Cancel";
@@ -184,6 +256,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Donar";
+        case "fr_fr":
+          return "Donner";
+        case "pt_br":
+          return "Doar";
         default:
           return "Donate";
       }
@@ -193,6 +269,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Buscar actualizaciones";
+        case "fr_fr":
+          return "Recherche de mises à jour";
+        case "pt_br":
+          return "Buscar atualizações";
         default:
           return "Check for updates";
       }
@@ -201,6 +281,10 @@
     Messages.prototype.uiShowLogs = function() {
       switch (this.i18n) {
         case "es_es":
+          return "Mostrar logs";
+        case "fr_fr":
+          return "Montrer le journal";
+        case "pt_br":
           return "Mostrar logs";
         default:
           return "Show logs";
@@ -215,6 +299,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Posición horizontal";
+        case "fr_fr":
+          return "Position horizontale";
+        case "pt_br":
+          return "Posição horizontal";
         default:
           return "Horizontal position";
       }
@@ -224,6 +312,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Posición vertical";
+        case "fr_fr":
+          return "Position verticale";
+        case "pt_br":
+          return "Posição vertical";
         default:
           return "Vertical position";
       }
@@ -233,6 +325,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Resto horizontal";
+        case "fr_fr":
+          return "Reste horizontal";
+        case "pt_br":
+          return "Restante horizontal";
         default:
           return "Horizontal remainder";
       }
@@ -242,6 +338,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Resto vertical";
+        case "fr_fr":
+          return "Reste vertical";
+        case "pt_br":
+          return "Restante vertical";
         default:
           return "Vertical remainder";
       }
@@ -251,6 +351,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Izquierda";
+        case "fr_fr":
+          return "Gauche";
+        case "pt_br":
+          return "Esquerda";
         default:
           return "Left";
       }
@@ -259,6 +363,10 @@
     Messages.prototype.uiHorizontalCenter = function() {
       switch (this.i18n) {
         case "es_es":
+          return "Centro";
+        case "fr_fr":
+          return "Centre";
+        case "pt_br":
           return "Centro";
         default:
           return "Center";
@@ -269,6 +377,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Derecha";
+        case "fr_fr":
+          return "Droite";
+        case "pt_br":
+          return "Direita";
         default:
           return "Right";
       }
@@ -278,6 +390,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Arriba";
+        case "fr_fr":
+          return "Haut";
+        case "pt_br":
+          return "Acima";
         default:
           return "Top";
       }
@@ -286,6 +402,10 @@
     Messages.prototype.uiVerticalCenter = function() {
       switch (this.i18n) {
         case "es_es":
+          return "Centro";
+        case "fr_fr":
+          return "Centre";
+        case "pt_br":
           return "Centro";
         default:
           return "Center";
@@ -296,6 +416,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Abajo";
+        case "fr_fr":
+          return "Bas";
+        case "pt_br":
+          return "Abaixo";
         default:
           return "Bottom";
       }
@@ -305,6 +429,10 @@
       switch (this.i18n) {
         case "es_es":
           return "No, gracias";
+        case "fr_fr":
+          return "Non merci";
+        case "pt_br":
+          return "Não, obrigado";
         default:
           return "No thanks";
       }
@@ -314,6 +442,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Abrir en navegador";
+        case "fr_fr":
+          return "Ouvrir dans un navigateur";
+        case "pt_br":
+          return "Abrir no navegador";
         default:
           return "Open in browser";
       }
@@ -323,6 +455,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Importa sets pegando una url de GitHub Gist en el campo de texto de abajo.";
+        case "fr_fr":
+          return "Importer des groupes en collant un url Github Gist dans le champ de texte ci-dessous";
+        case "pt_br":
+          return "Importar os sets colando uma URL de GitHub Gist no campo de texto abaixo.";
         default:
           return "Import sets by pasting a GitHub Gist url in the text field below.";
       }
@@ -332,6 +468,10 @@
       switch (this.i18n) {
         case "es_es":
           return 'Estos son los datos de un set de guías exportado por el plugin GuideGuide. Para importarlos, haz click en el botón "Importar" en los ajustes de GuideGuide y pega la url de este Gist en el campo de texto.';
+        case "fr_fr":
+          return 'Ceci est un groupe de données de guides exporté par le plugin GuideGuide. Pour les importer, cliquez sur le bouton "importer" dans les réglages de GuideGuide et collez cet url Gist dans le champ texte';
+        case "pt_br":
+          return 'Este é o guia de dados de set exportados pelo plugin GuideGuide. Para importar -lo, clique no botão "Importar" nas configurações do GuideGuide e cole a url do Gist no campo de texto';
         default:
           return 'This is guide set data exported by the GuideGuide plugin. To import them, click the "Import" button in the GuideGuide settings and paste this Gist url into the text field.';
       }
@@ -341,6 +481,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Estás al día";
+        case "fr_fr":
+          return "À jour";
+        case "pt_br":
+          return "Esta atualizado";
         default:
           return "Up to date";
       }
@@ -350,6 +494,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Ya tienes la última versión de GuideGuide.";
+        case "fr_fr":
+          return "Ceci est la version la plus récente de GuideGuide";
+        case "pt_br":
+          return "O GuideGuide está atualizado com a última versão.";
         default:
           return "GuideGuide is currently up to date.";
       }
@@ -359,6 +507,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Error buscando actualizaciones";
+        case "fr_fr":
+          return "Erreur lors de la recherche de mises à jour";
+        case "pt_br":
+          return "Erro na verificação de atualizações";
         default:
           return "Error checking for updates";
       }
@@ -368,22 +520,48 @@
       switch (this.i18n) {
         case "es_es":
           return "Desgraciadamente, GuideGuide no ha sido capaz de buscar actualizaciones en este momento. Por favor, inténtalo de nuevo más adelante.";
+        case "fr_fr":
+          return "Malheureusement, GuideGuide ne peut chercher des mises à jour maintenant Merci de réessayer plus tard";
+        case "pt_br":
+          return "Infelizmente, GuideGuide foi incapaz de verificar se há atualizações neste momento. Por favor, tente novamente mais tarde.";
         default:
           return "Unfortunately, GuideGuide is unable to check for updates at this time. Please try again later.";
       }
     };
 
     Messages.prototype.alertTitleUpdate = function() {
-      return "Updates available";
+      switch (this.i18n) {
+        case "es_es":
+          return "Actualizaciones disponibles";
+        case "fr_fr":
+          return "Mise à jour disponible";
+        case "pt_br":
+          return "Atualizações disponíveis";
+        default:
+          return "Updates available";
+      }
     };
 
     Messages.prototype.alertMessageUpdate = function() {
-      return "Update GuideGuide to get the latest version.";
+      switch (this.i18n) {
+        case "es_es":
+          return "Actualiza GuideGuide para obtener la última versión";
+        case "fr_fr":
+          return "Mettez GuideGuide à jour pour obtenir la version la plus récente";
+        case "pt_br":
+          return "Atualize o GuideGuide para obter a versão mais recente.";
+        default:
+          return "Update GuideGuide to get the latest version.";
+      }
     };
 
     Messages.prototype.alertTitleImportSuccess = function() {
       switch (this.i18n) {
         case "es_es":
+          return "Sets importados";
+        case "fr_fr":
+          return "Groupes importés";
+        case "pt_br":
           return "Sets importados";
         default:
           return "Sets imported";
@@ -394,6 +572,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Tus sets se han importado correctamente.";
+        case "fr_fr":
+          return "Vos groupes ont été importés avec succès.";
+        case "pt_br":
+          return "Seus sets foram importados corretamente.";
         default:
           return "Your sets have successfully been imported.";
       }
@@ -403,6 +585,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Error de Importación";
+        case "fr_fr":
+          return "Erreur d'importation";
+        case "pt_br":
+          return "Erro na importação";
         default:
           return "Import Error";
       }
@@ -412,6 +598,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Desgraciadamente, GuideGuide no ha sido capaz de importar sets en este momento. Por favor, inténtalo de nuevo más adelante.";
+        case "fr_fr":
+          return "Malheureusement, GuideGuide ne peut importer des groupes maintenant. Merci de réessayer plus tard.";
+        case "pt_br":
+          return "Infelizmente, o GuideGuide não foi capaz de importar os sets neste momento. Por favor, tente novamente mais tarde.";
         default:
           return "Unfortunately, GuideGuide is unable to import sets at this time. Please try again later.";
       }
@@ -421,6 +611,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Error de Importación";
+        case "fr_fr":
+          return "Erreur d'importation";
+        case "pt_br":
+          return "Erro na importação";
         default:
           return "Import error";
       }
@@ -430,6 +624,10 @@
       switch (this.i18n) {
         case "es_es":
           return "GuideGuide no ha sido capaz de encontrar sets.json en este Gist.";
+        case "fr_fr":
+          return "GuideGuide n'a pas trouvé de document sets.json dans ce Gist.";
+        case "pt_br":
+          return "O GuideGuide não foi capaz de encontrar o arquivo sets.json neste Gist.";
         default:
           return "GuideGuide was not able to find sets.json in this Gist.";
       }
@@ -439,6 +637,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Error de Importación";
+        case "fr_fr":
+          return "Erreur d'importation";
+        case "pt_br":
+          return "Erro na importação";
         default:
           return "Import Error";
       }
@@ -448,6 +650,10 @@
       switch (this.i18n) {
         case "es_es":
           return "El texto de entrada no contiene una url de GitHub Gist.";
+        case "fr_fr":
+          return "Le texte d'entrée ne contient pas d'url GitHub Gist.";
+        case "pt_br":
+          return "O texto de entrada não contém uma url do GitHub Gist.";
         default:
           return "The input text does not contain a GitHub Gist url.";
       }
@@ -457,6 +663,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Sets exportados";
+        case "fr_fr":
+          return "Les groupes ont été exportés";
+        case "pt_br":
+          return "Configurações exportadas";
         default:
           return "Sets have been exported";
       }
@@ -468,6 +678,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Tus sets han sido exportados a un GitHub Gist secreto. " + button;
+        case "fr_fr":
+          return "Vos groupes ont été exportés dans un Github Gist secret. " + button;
+        case "pt_br":
+          return "Seus sets foram exportadas para um GitHub Gist secreto. " + button;
         default:
           return "Your sets have been exported to a secret GitHub Gist. " + button;
       }
@@ -477,6 +691,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Imposible exportar";
+        case "fr_fr":
+          return "Impossible d'exporter";
+        case "pt_br":
+          return "Impossivel exportar";
         default:
           return "Unable to export";
       }
@@ -486,6 +704,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Desgraciadamente, GuideGuide no ha sido capaz de exportar sets en este momento. Por favor, inténtalo de nuevo más adelante.";
+        case "fr_fr":
+          return "Malheureusement, GuideGuide ne peut exporter des groupes maintenant. Merci de réessayer plus tard.";
+        case "pt_br":
+          return "Infelizmente, o GuideGuide não foi capaz de exportar os sets neste momento. Por favor, tente novamente mais tarde.";
         default:
           return "Unfortunately, GuideGuide is unable to export sets at this time. Please try again later.";
       }
@@ -495,6 +717,10 @@
       switch (this.i18n) {
         case "es_es":
           return "¿Te gustaría donar?";
+        case "fr_fr":
+          return "Voulez-vous faire un don ?";
+        case "pt_br":
+          return "Gostaria de doar?";
         default:
           return "Would you like to donate?";
       }
@@ -504,6 +730,10 @@
       switch (this.i18n) {
         case "es_es":
           return "¡Vaya, ya has usado GuideGuide 30 veces! Parece que le estás sacando bastante partido a GuideGuide, ¿te interesaría hacer una donación para contribuir a su desarrollo?";
+        case "fr_fr":
+          return "Wow, vous avez utilisé GuideGuide 30 fois ! Vu que vous semblez l'utiliser souvent, avez-vous pensé à effectuer une donation pour contribuer à son développement ?";
+        case "pt_br":
+          return "Yowza, você já usou o GuideGuide 30 vezes! Parece que o GuideGuide anda sendo bem útil, Você consideraria fazer uma doação para o desenvolvimento?";
         default:
           return "Yowza, you've used GuideGuide 30 times! Since you seem to get quite a bit of use out of GuideGuide, would you consider making a donation to the development?";
       }
@@ -513,6 +743,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Comando no reconocido";
+        case "fr_fr":
+          return "Commande inconnue";
+        case "pt_br":
+          return "Comando desconhecido";
         default:
           return "Unrecognized command";
       }
@@ -522,6 +756,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Esta cadena no contiene ninguna retícula";
+        case "fr_fr":
+          return "Cette chaîne ne contient aucune grille";
+        case "pt_br":
+          return "Esta palavra não contém nenhuma grids";
         default:
           return "This string does not contain any grids";
       }
@@ -531,6 +769,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Los comodines no pueden ser rellenos";
+        case "fr_fr":
+          return "Les jokers ne peuvent être du remplissage";
+        case "pt_br":
+          return "Wildcards não podem ser preenchido";
         default:
           return "Wildcards cannot be fills";
       }
@@ -540,6 +782,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Una retícula sólo puede contener un relleno";
+        case "fr_fr":
+          return "Une grille ne peut contenir qu'un remplissage";
+        case "pt_br":
+          return "Uma grid só pode conter um preenchimento";
         default:
           return "A grid can only contain one fill";
       }
@@ -549,6 +795,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Las variables no pueden contener un relleno";
+        case "fr_fr":
+          return "Les variables ne peuvent contenir qu'un remplissage";
+        case "pt_br":
+          return "As variáveis ​​não podem conter um preenchimento";
         default:
           return "Variables cannot contain a fill";
       }
@@ -558,6 +808,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Variable no definida";
+        case "fr_fr":
+          return "Variable indéfini";
+        case "pt_br":
+          return "Variável não definida";
         default:
           return "Undefined variable";
       }
@@ -567,6 +821,10 @@
       switch (this.i18n) {
         case "es_es":
           return "Cadena generada a partir de las guías existentes";
+        case "fr_fr":
+          return "Chaîne générée à partir de code existant";
+        case "pt_br":
+          return "Palavra gerada a partir das guias existentes";
         default:
           return "String generated from existing guides";
       }
