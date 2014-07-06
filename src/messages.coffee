@@ -447,6 +447,7 @@ class Messages
         Please try again later."
 
   alertTitleUpdate: =>
+    switch @i18n
       when "es_es"
         "Actualizaciones disponibles"
       when "fr_fr"
@@ -457,6 +458,7 @@ class Messages
         "Updates available"
 
   alertMessageUpdate: =>
+    switch @i18n
       when "es_es"
         "Actualiza GuideGuide para obtener la última versión"
       when "fr_fr"
