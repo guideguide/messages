@@ -12,11 +12,6 @@
   "license": "MIT",
   "private": true,
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "src",
-    "script"
+    "./!(messages.js)"
   ]
 }
