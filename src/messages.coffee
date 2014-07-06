@@ -193,7 +193,6 @@ class Messages
       when "fr_fr"
         "Donner"
       when "pt_br"
-
         "Doar"
       else
         "Donate"
@@ -383,7 +382,7 @@ class Messages
         Pour les importer, cliquez sur le bouton "importer" dans les réglages de GuideGuide
         et collez cet url Gist dans le champ texte'
       when "pt_br"
-        'Este é o guia de dados de set exportados pelo plugin GuideGuide. Para importar 
+        'Este é o guia de dados de set exportados pelo plugin GuideGuide. Para importar
          -lo, clique no botão "Importar" nas configurações do GuideGuide e cole a url do
          Gist no campo de texto'
       else
@@ -438,7 +437,7 @@ class Messages
         "Malheureusement, GuideGuide ne peut chercher des mises à jour maintenant
         Merci de réessayer plus tard"
       when "pt_br"
-        "Infelizmente, GuideGuide foi incapaz de verificar se há atualizações neste momento. 
+        "Infelizmente, GuideGuide foi incapaz de verificar se há atualizações neste momento.
          Por favor, tente novamente mais tarde."
       else
         "Unfortunately, GuideGuide is unable to check for updates at this time.
@@ -625,7 +624,7 @@ class Messages
       when "fr_fr"
         "Wow, vous avez utilisé GuideGuide 30 fois ! Vu que vous semblez l'utiliser
         souvent, avez-vous pensé à effectuer une donation pour contribuer
-        à son développement ?" 
+        à son développement ?"
       when "pt_br"
         "Yowza, você já usou o GuideGuide 30 vezes! Parece que o GuideGuide anda
         sendo bem útil, Você consideraria fazer uma doação para o desenvolvimento?"
