@@ -81,6 +81,9 @@ class Messages
       else
         "Debug"
 
+  uiClearForm: =>
+    "Clear form"
+
   uiMakeGrid: =>
     switch @i18n
       when "es_es"
