@@ -443,8 +443,10 @@ class Messages
         "Infelizmente, GuideGuide foi incapaz de verificar se há atualizações neste momento.
          Por favor, tente novamente mais tarde."
       else
-        "Unfortunately, GuideGuide is unable to check for updates at this time.
-        Please try again later."
+        'Unfortunately, something went wrong when trying to check for updates.
+        If the problem persists, check
+        <strong><a class="js-link" href="http://guideguide.me">guideguide.me</a></strong>
+        for new versions.'
 
   alertTitleUpdate: =>
     switch @i18n
