@@ -10,7 +10,7 @@ npm install
 
 ### Development
 
-The source is located in *[src/messages.coffee](src/messages.coffee)*. It must be compiled to publish.
+The source is located in *[src/messages.coffee](src/messages.coffee)*. It must be compiled before publishing.
 
 Tests use [Mocha](http://visionmedia.github.io/mocha/). To run the test watcher, run the following in the terminal:
 
