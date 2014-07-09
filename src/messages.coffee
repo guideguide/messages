@@ -82,7 +82,11 @@ class Messages
         "Debug"
 
   uiClearForm: =>
-    "Clear form"
+    switch @i18n
+      when "pt_br"
+        "Limpar formulário"
+      else
+        "Clear form"
 
   uiMakeGrid: =>
     switch @i18n
@@ -184,10 +188,18 @@ class Messages
         "Cancel"
 
   uiOn: =>
-    "On"
+    switch @i18n
+      when "pt_br"
+        "Ligar"
+      else
+        "On"
 
   uiOff: =>
-    "Off"
+    switch @i18n
+      when "pt_br"
+        "Desligar"
+      else
+        "Off"
 
   uiDonate: =>
     switch @i18n
@@ -223,7 +235,11 @@ class Messages
         "Show logs"
 
   uiSnapToPixels: =>
-    "Snap to pixels"
+    switch @i18n
+      when "pt_br"
+        "Encaixar nos pixels"
+      else
+        "Snap to pixels"
 
   uiHorizontalPosition: =>
     switch @i18n
@@ -440,8 +456,10 @@ class Messages
         "Malheureusement, GuideGuide ne peut chercher des mises à jour maintenant
         Merci de réessayer plus tard"
       when "pt_br"
-        "Infelizmente, GuideGuide foi incapaz de verificar se há atualizações neste momento.
-         Por favor, tente novamente mais tarde."
+        'Infelizmente, algo deu errado ao tentar verificar se há atualizações.
+        Se o problema persistir, verifique
+        <strong><a class="js-link" href="http://guideguide.me">guideguide.me</a></strong>
+        para novas versões.'
       else
         'Unfortunately, something went wrong when trying to check for updates.
         If the problem persists, check
