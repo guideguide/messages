@@ -83,6 +83,8 @@ class Messages
 
   uiClearForm: =>
     switch @i18n
+      when "es_es"
+        "Limpiar formulario"
       when "pt_br"
         "Limpar formulário"
       else
@@ -189,6 +191,8 @@ class Messages
 
   uiOn: =>
     switch @i18n
+      when "es_es"
+        "Encendido"
       when "pt_br"
         "Ligar"
       else
@@ -196,6 +200,8 @@ class Messages
 
   uiOff: =>
     switch @i18n
+      when "es_es"
+        "Apagado"
       when "pt_br"
         "Desligar"
       else
@@ -236,6 +242,8 @@ class Messages
 
   uiSnapToPixels: =>
     switch @i18n
+      when "es_es"
+        "Encajar en pixels"
       when "pt_br"
         "Encaixar nos pixels"
       else
@@ -450,8 +458,10 @@ class Messages
   alertMessageUpdateError: =>
     switch @i18n
       when "es_es"
-        "Desgraciadamente, GuideGuide no ha sido capaz de buscar actualizaciones
-        en este momento. Por favor, inténtalo de nuevo más adelante."
+        "Desgraciadamente, algo ha fallado intentando buscar actualizaciones.
+        Si el problema persiste, visita
+        <strong><a class="js-link" href="http://guideguide.me">guideguide.me</a></strong>
+        para descargar una nueva versión."
       when "fr_fr"
         "Malheureusement, GuideGuide ne peut chercher des mises à jour maintenant
         Merci de réessayer plus tard"
