@@ -364,7 +364,7 @@ class Messages
       when "es_es"
         "No, gracias"
       when "fr_fr"
-        "Non merci"
+        "Non, merci"
       when "pt_br"
         "Não, obrigado"
       else
@@ -481,7 +481,7 @@ class Messages
       when "es_es"
         "Actualizaciones disponibles"
       when "fr_fr"
-        "Mise à jour disponible"
+        "Mises à jour disponibles"
       when "pt_br"
         "Atualizações disponíveis"
       else
@@ -739,7 +739,7 @@ class Messages
       when "es_es"
         "Variable no definida"
       when "fr_fr"
-        "Variable indéfini"
+        "Variable indéfinie"
       when "pt_br"
         "Variável não definida"
       else
