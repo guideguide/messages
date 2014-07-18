@@ -14,6 +14,24 @@ describe 'Messages', ->
   it 'should successfully get Spanish messages', ->
     assert.equal allMessagesExist(new Messages("es_es")), true
 
+  describe 'alertMessageExportSuccess', ->
+
+    it 'should pass through en_us', ->
+      messages = new Messages("en_us")
+      assert messages.alertMessageExportSuccess("foobar").indexOf('foobar') >= 0
+
+    it 'should pass through es_es', ->
+      messages = new Messages("es_es")
+      assert messages.alertMessageExportSuccess("foobar").indexOf('foobar') >= 0
+
+    it 'should pass through fr_fr', ->
+      messages = new Messages("fr_fr")
+      assert messages.alertMessageExportSuccess("foobar").indexOf('foobar') >= 0
+
+    it 'should pass through pt_br', ->
+      messages = new Messages("pt_br")
+      assert messages.alertMessageExportSuccess("foobar").indexOf('foobar') >= 0
+
 allMessagesExist = (m) ->
   success = true
   for k, v of m when typeof v is 'function'

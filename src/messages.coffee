@@ -53,7 +53,7 @@ class Messages
       when "es_es"
         "Personalizada"
       when "fr_fr"
-        "Personnalisées"
+        "Personnalisée"
       when "pt_br"
         "Personalizada"
       else
@@ -64,7 +64,7 @@ class Messages
       when "es_es"
         "Sets"
       when "fr_fr"
-        "Sets"
+        "Groupes"
       when "pt_br"
         "Sets"
       else
@@ -75,7 +75,7 @@ class Messages
       when "es_es"
         "Debug"
       when "fr_fr"
-        "Débug"
+        "Débugger"
       when "pt_br"
         "Debug"
       else
@@ -83,8 +83,6 @@ class Messages
 
   uiClearForm: =>
     switch @i18n
-      when "fr_fr"
-        "Effacer le formulaire"
       when "pt_br"
         "Limpar formulário"
       else
@@ -95,7 +93,7 @@ class Messages
       when "es_es"
         "Crear retícula"
       when "fr_fr"
-        "Créer la grille"
+        "Créer une grille"
       when "pt_br"
         "Criar grid"
       else
@@ -106,7 +104,7 @@ class Messages
       when "es_es"
         "Guardar set"
       when "fr_fr"
-        "Enregistrer le set"
+        "Enregistrer le groupe"
       when "pt_br"
         "Salvar set"
       else
@@ -117,7 +115,7 @@ class Messages
       when "es_es"
         "Importar sets"
       when "fr_fr"
-        "Importer des sets"
+        "Importer les groupes"
       when "pt_br"
         "Importar sets"
       else
@@ -128,7 +126,7 @@ class Messages
       when "es_es"
         "Exportar sets"
       when "fr_fr"
-        "Exporter des sets"
+        "Exporter les groupes"
       when "pt_br"
         "Exportar sets"
       else
@@ -139,7 +137,7 @@ class Messages
       when "es_es"
         "Punto medio de columna"
       when "fr_fr"
-        "Centre des colonnes"
+        "Point central des colonnes"
       when "pt_br"
         "Ponto central da coluna"
       else
@@ -150,7 +148,7 @@ class Messages
       when "es_es"
         "Punto medio de fila"
       when "fr_fr"
-        "Centre des lignes"
+        "Point central des rangées"
       when "pt_br"
         "Ponto central da linha"
       else
@@ -161,7 +159,7 @@ class Messages
       when "es_es"
         "Punto medio del medianil"
       when "fr_fr"
-        "Centre des gouttières"
+        "Point central des gouttières"
       when "pt_br"
         "Ponto central do espaçamento"
       else
@@ -191,8 +189,6 @@ class Messages
 
   uiOn: =>
     switch @i18n
-      when "fr_fr"
-        "Activé"
       when "pt_br"
         "Ligar"
       else
@@ -200,8 +196,6 @@ class Messages
 
   uiOff: =>
     switch @i18n
-      when "fr_fr"
-        "Désactivé"
       when "pt_br"
         "Desligar"
       else
@@ -212,7 +206,7 @@ class Messages
       when "es_es"
         "Donar"
       when "fr_fr"
-        "Faire un don"
+        "Donner"
       when "pt_br"
         "Doar"
       else
@@ -223,7 +217,7 @@ class Messages
       when "es_es"
         "Buscar actualizaciones"
       when "fr_fr"
-        "Vérifier les mises à jour"
+        "Recherche de mises à jour"
       when "pt_br"
         "Buscar atualizações"
       else
@@ -234,7 +228,7 @@ class Messages
       when "es_es"
         "Mostrar logs"
       when "fr_fr"
-        "Afficher l'historique"
+        "Montrer le journal"
       when "pt_br"
         "Mostrar logs"
       else
@@ -242,8 +236,6 @@ class Messages
 
   uiSnapToPixels: =>
     switch @i18n
-      when "fr_fr"
-        "Magnétisme des pixels"
       when "pt_br"
         "Encaixar nos pixels"
       else
@@ -276,7 +268,7 @@ class Messages
       when "es_es"
         "Resto horizontal"
       when "fr_fr"
-        "Excédent horizontal"
+        "Reste horizontal"
       when "pt_br"
         "Restante horizontal"
       else
@@ -287,7 +279,7 @@ class Messages
       when "es_es"
         "Resto vertical"
       when "fr_fr"
-        "Excédent vertical"
+        "Reste vertical"
       when "pt_br"
         "Restante vertical"
       else
@@ -364,7 +356,7 @@ class Messages
       when "es_es"
         "No, gracias"
       when "fr_fr"
-        "Non, merci"
+        "Non merci"
       when "pt_br"
         "Não, obrigado"
       else
@@ -375,7 +367,7 @@ class Messages
       when "es_es"
         "Abrir en navegador"
       when "fr_fr"
-        "Ouvrir dans le navigateur"
+        "Ouvrir dans un navigateur"
       when "pt_br"
         "Abrir no navegador"
       else
@@ -392,7 +384,7 @@ class Messages
         "Importa sets pegando una url de GitHub Gist en el campo de texto de
         abajo."
       when "fr_fr"
-        "Importez des sets en collant une url Github Gist dans le champ ci-dessous."
+        "Importer des groupes en collant un url Github Gist dans le champ de texte ci-dessous"
       when "pt_br"
         "Importar os sets colando uma URL de GitHub Gist no campo de texto abaixo."
       else
@@ -405,13 +397,13 @@ class Messages
         GuideGuide. Para importarlos, haz click en el botón "Importar" en los
         ajustes de GuideGuide y pega la url de este Gist en el campo de texto.'
       when "fr_fr"
-        'Ceci est un guide sur les données des sets exportées par l\'extension.
-        Pour les importer, cliquez sur le bouton "Importer" dans les paramètres
-		de GuideGuide et collez cette url Gist dans le champ.'
+        'Ceci est un groupe de données de guides exporté par le plugin GuideGuide.
+        Pour les importer, cliquez sur le bouton "importer" dans les réglages de GuideGuide
+        et collez cet url Gist dans le champ texte'
       when "pt_br"
         'Este é o guia de dados de set exportados pelo plugin GuideGuide. Para importar
-         -lo, clique no botão "Importar" nas configurações do GuideGuide e cole a url do
-         Gist no campo de texto'
+         -lo, clique no botão "Importar" nas configurações do GuideGuide e cole a url do
+         Gist no campo de texto'
       else
         'This is guide set data exported by the GuideGuide plugin. To import
         them, click the "Import" button in the GuideGuide settings and paste
@@ -438,7 +430,7 @@ class Messages
       when "es_es"
         "Ya tienes la última versión de GuideGuide."
       when "fr_fr"
-        "GuideGuide est à jour."
+        "Ceci est la version la plus récente de GuideGuide"
       when "pt_br"
         "O GuideGuide está atualizado com a última versão."
       else
@@ -449,7 +441,7 @@ class Messages
       when "es_es"
         "Error buscando actualizaciones"
       when "fr_fr"
-        "Erreur lors de la vérification des mises à jour"
+        "Erreur lors de la recherche de mises à jour"
       when "pt_br"
         "Erro na verificação de atualizações"
       else
@@ -461,15 +453,13 @@ class Messages
         "Desgraciadamente, GuideGuide no ha sido capaz de buscar actualizaciones
         en este momento. Por favor, inténtalo de nuevo más adelante."
       when "fr_fr"
-        'Malheureusement, une erreur est survenue lors de la vérification des mises à jour.
-		Si le problème persiste, consultez le site
-		<strong><a class="js-link" href="http://guideguide.me">guideguide.me</a></strong>
-        pour de nouvelles versions.'
+        "Malheureusement, GuideGuide ne peut chercher des mises à jour maintenant
+        Merci de réessayer plus tard"
       when "pt_br"
         'Infelizmente, algo deu errado ao tentar verificar se há atualizações.
         Se o problema persistir, verifique
         <strong><a class="js-link" href="http://guideguide.me">guideguide.me</a></strong>
-        para novas versões.'
+        para novas versões.'
       else
         'Unfortunately, something went wrong when trying to check for updates.
         If the problem persists, check
@@ -481,7 +471,7 @@ class Messages
       when "es_es"
         "Actualizaciones disponibles"
       when "fr_fr"
-        "Mises à jour disponibles"
+        "Mise à jour disponible"
       when "pt_br"
         "Atualizações disponíveis"
       else
@@ -492,7 +482,7 @@ class Messages
       when "es_es"
         "Actualiza GuideGuide para obtener la última versión"
       when "fr_fr"
-        "Obtenez la dernière version de GuideGuide."
+        "Mettez GuideGuide à jour pour obtenir la version la plus récente"
       when "pt_br"
         "Atualize o GuideGuide para obter a versão mais recente."
       else
@@ -503,7 +493,7 @@ class Messages
       when "es_es"
         "Sets importados"
       when "fr_fr"
-        "Sets importés"
+        "Groupes importés"
       when "pt_br"
         "Sets importados"
       else
@@ -514,7 +504,7 @@ class Messages
       when "es_es"
         "Tus sets se han importado correctamente."
       when "fr_fr"
-        "Vos sets ont été importés avec succès."
+        "Vos groupes ont été importés avec succès."
       when "pt_br"
         "Seus sets foram importados corretamente."
       else
@@ -537,8 +527,8 @@ class Messages
         "Desgraciadamente, GuideGuide no ha sido capaz de importar sets en este
         momento. Por favor, inténtalo de nuevo más adelante."
       when "fr_fr"
-        "Malheureusement, GuideGuide n'est pas en mesure actuellement d'importer 
-		les sets. Veuillez réessayer plus tard."
+        "Malheureusement, GuideGuide ne peut importer des groupes maintenant.
+        Merci de réessayer plus tard."
       when "pt_br"
         "Infelizmente, o GuideGuide não foi capaz de importar os sets neste
         momento. Por favor, tente novamente mais tarde."
@@ -562,7 +552,7 @@ class Messages
       when "es_es"
         "GuideGuide no ha sido capaz de encontrar sets.json en este Gist."
       when "fr_fr"
-        "GuideGuide n'a pas été en mesure de trouver le fichier sets.json dans ce Gist."
+        "GuideGuide n'a pas trouvé de document sets.json dans ce Gist."
       when "pt_br"
         "O GuideGuide não foi capaz de encontrar o arquivo sets.json neste Gist."
       else
@@ -584,7 +574,7 @@ class Messages
       when "es_es"
         "El texto de entrada no contiene una url de GitHub Gist."
       when "fr_fr"
-        "Le champ ne contient aucune url GitHub Gist."
+        "Le texte d'entrée ne contient pas d'url GitHub Gist."
       when "pt_br"
         "O texto de entrada não contém uma url do GitHub Gist."
       else
@@ -595,7 +585,7 @@ class Messages
       when "es_es"
         "Sets exportados"
       when "fr_fr"
-        "Les sets ont été exportés"
+        "Les groupes ont été exportés"
       when "pt_br"
         "Configurações exportadas"
       else
@@ -607,7 +597,7 @@ class Messages
       when "es_es"
         "Tus sets han sido exportados a un GitHub Gist secreto. #{ button }"
       when "fr_fr"
-        "Vos sets ont été exportés vers un Github Gist secret. #{ button }"
+        "Vos groupes ont été exportés dans un Github Gist secret. #{ button }"
       when "pt_br"
         "Seus sets foram exportadas para um GitHub Gist secreto. #{ button }"
       else
@@ -630,8 +620,8 @@ class Messages
         "Desgraciadamente, GuideGuide no ha sido capaz de exportar sets en este
         momento. Por favor, inténtalo de nuevo más adelante."
       when "fr_fr"
-        "Malheureusement, GuideGuide n'est pas en mesure actuellement d'exporter 
-		les sets. Veuillez réessayer plus tard."
+        "Malheureusement, GuideGuide ne peut exporter des groupes maintenant.
+        Merci de réessayer plus tard."
       when "pt_br"
         "Infelizmente, o GuideGuide não foi capaz de exportar os sets neste
         momento. Por favor, tente novamente mais tarde."
@@ -657,9 +647,9 @@ class Messages
         bastante partido a GuideGuide, ¿te interesaría hacer una donación para
         contribuir a su desarrollo?"
       when "fr_fr"
-        "Wow, vous avez utilisé GuideGuide 30 fois ! Comme vous semblez utiliser
-		et apprécier GuideGuide, pourquoi ne pas envisager de faire un don
-		pour supporter son développement ?"
+        "Wow, vous avez utilisé GuideGuide 30 fois ! Vu que vous semblez l'utiliser
+        souvent, avez-vous pensé à effectuer une donation pour contribuer
+        à son développement ?"
       when "pt_br"
         "Yowza, você já usou o GuideGuide 30 vezes! Parece que o GuideGuide anda
         sendo bem útil, Você consideraria fazer uma doação para o desenvolvimento?"
@@ -679,7 +669,7 @@ class Messages
       when "es_es"
         "Comando no reconocido"
       when "fr_fr"
-        "Commande non reconnue"
+        "Commande inconnue"
       when "pt_br"
         "Comando desconhecido"
       else
@@ -691,7 +681,7 @@ class Messages
       when "es_es"
         "Esta cadena no contiene ninguna retícula"
       when "fr_fr"
-        "Cette chaîne de caractères ne contient aucune grille"
+        "Cette chaîne ne contient aucune grille"
       when "pt_br"
         "Esta palavra não contém nenhuma grids"
       else
@@ -703,7 +693,7 @@ class Messages
       when "es_es"
         "Los comodines no pueden ser rellenos"
       when "fr_fr"
-        "Les métacaractères ne peuvent être un remplissage"
+        "Les jokers ne peuvent être du remplissage"
       when "pt_br"
         "Wildcards não podem ser preenchido"
       else
@@ -739,7 +729,7 @@ class Messages
       when "es_es"
         "Variable no definida"
       when "fr_fr"
-        "Variable indéfinie"
+        "Variable indéfini"
       when "pt_br"
         "Variável não definida"
       else
@@ -750,7 +740,7 @@ class Messages
       when "es_es"
         "Cadena generada a partir de las guías existentes"
       when "fr_fr"
-        "Chaîne de caratères générée à partir de guides existant"
+        "Chaîne générée à partir de code existant"
       when "pt_br"
         "Palavra gerada a partir das guias existentes"
       else
