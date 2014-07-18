@@ -402,8 +402,8 @@ class Messages
         et collez cet url Gist dans le champ texte'
       when "pt_br"
         'Este é o guia de dados de set exportados pelo plugin GuideGuide. Para importar
-         -lo, clique no botão "Importar" nas configurações do GuideGuide e cole a url do
-         Gist no campo de texto'
+         -lo, clique no botão "Importar" nas configurações do GuideGuide e cole a url do
+         Gist no campo de texto'
       else
         'This is guide set data exported by the GuideGuide plugin. To import
         them, click the "Import" button in the GuideGuide settings and paste
@@ -459,7 +459,7 @@ class Messages
         'Infelizmente, algo deu errado ao tentar verificar se há atualizações.
         Se o problema persistir, verifique
         <strong><a class="js-link" href="http://guideguide.me">guideguide.me</a></strong>
-        para novas versões.'
+        para novas versões.'
       else
         'Unfortunately, something went wrong when trying to check for updates.
         If the problem persists, check
