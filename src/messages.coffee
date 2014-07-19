@@ -392,7 +392,7 @@ class Messages
         "Importa sets pegando una url de GitHub Gist en el campo de texto de
         abajo."
       when "fr_fr"
-        "Importer des groupes en collant un url Github Gist dans le champ de texte ci-dessous"
+        "Importez des sets en collant une url Github Gist dans le champ ci-dessous."
       when "pt_br"
         "Importar os sets colando uma URL de GitHub Gist no campo de texto abaixo."
       else
@@ -405,9 +405,9 @@ class Messages
         GuideGuide. Para importarlos, haz click en el botón "Importar" en los
         ajustes de GuideGuide y pega la url de este Gist en el campo de texto.'
       when "fr_fr"
-        'Ceci est un groupe de données de guides exporté par le plugin GuideGuide.
-        Pour les importer, cliquez sur le bouton "importer" dans les réglages de GuideGuide
-        et collez cet url Gist dans le champ texte'
+        'Ceci est un guide sur les données des sets exportées par l\'extension GuideGuide.
+        Pour les importer, cliquez sur le bouton "Importer" dans les paramètres
+		de GuideGuide et collez cette url Gist dans le champ.'
       when "pt_br"
         'Este é o guia de dados de set exportados pelo plugin GuideGuide. Para importar
          -lo, clique no botão "Importar" nas configurações do GuideGuide e cole a url do
