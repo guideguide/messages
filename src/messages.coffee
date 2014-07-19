@@ -64,7 +64,7 @@ class Messages
       when "es_es"
         "Sets"
       when "fr_fr"
-        "Groupes"
+        "Sets"
       when "pt_br"
         "Sets"
       else
@@ -75,7 +75,7 @@ class Messages
       when "es_es"
         "Debug"
       when "fr_fr"
-        "Débugger"
+        "Débug"
       when "pt_br"
         "Debug"
       else
@@ -95,7 +95,7 @@ class Messages
       when "es_es"
         "Crear retícula"
       when "fr_fr"
-        "Créer une grille"
+        "Créer la grille"
       when "pt_br"
         "Criar grid"
       else
@@ -106,7 +106,7 @@ class Messages
       when "es_es"
         "Guardar set"
       when "fr_fr"
-        "Enregistrer le groupe"
+        "Enregistrer le set"
       when "pt_br"
         "Salvar set"
       else
@@ -117,7 +117,7 @@ class Messages
       when "es_es"
         "Importar sets"
       when "fr_fr"
-        "Importer les groupes"
+        "Importer des sets"
       when "pt_br"
         "Importar sets"
       else
@@ -128,7 +128,7 @@ class Messages
       when "es_es"
         "Exportar sets"
       when "fr_fr"
-        "Exporter les groupes"
+        "Exporter des sets"
       when "pt_br"
         "Exportar sets"
       else
@@ -139,7 +139,7 @@ class Messages
       when "es_es"
         "Punto medio de columna"
       when "fr_fr"
-        "Point central des colonnes"
+        "Centre des colonnes"
       when "pt_br"
         "Ponto central da coluna"
       else
@@ -150,7 +150,7 @@ class Messages
       when "es_es"
         "Punto medio de fila"
       when "fr_fr"
-        "Point central des rangées"
+        "Centre des lignes"
       when "pt_br"
         "Ponto central da linha"
       else
@@ -161,7 +161,7 @@ class Messages
       when "es_es"
         "Punto medio del medianil"
       when "fr_fr"
-        "Point central des gouttières"
+        "Centre des gouttières"
       when "pt_br"
         "Ponto central do espaçamento"
       else
@@ -212,7 +212,7 @@ class Messages
       when "es_es"
         "Donar"
       when "fr_fr"
-        "Donner"
+        "Faire un don"
       when "pt_br"
         "Doar"
       else
@@ -223,7 +223,7 @@ class Messages
       when "es_es"
         "Buscar actualizaciones"
       when "fr_fr"
-        "Recherche de mises à jour"
+        "Vérifier les mises à jour"
       when "pt_br"
         "Buscar atualizações"
       else
@@ -234,7 +234,7 @@ class Messages
       when "es_es"
         "Mostrar logs"
       when "fr_fr"
-        "Montrer le journal"
+        "Afficher l'historique"
       when "pt_br"
         "Mostrar logs"
       else
@@ -276,7 +276,7 @@ class Messages
       when "es_es"
         "Resto horizontal"
       when "fr_fr"
-        "Reste horizontal"
+        "Excédent horizontal"
       when "pt_br"
         "Restante horizontal"
       else
@@ -287,7 +287,7 @@ class Messages
       when "es_es"
         "Resto vertical"
       when "fr_fr"
-        "Reste vertical"
+        "Excédent vertical"
       when "pt_br"
         "Restante vertical"
       else
@@ -375,7 +375,7 @@ class Messages
       when "es_es"
         "Abrir en navegador"
       when "fr_fr"
-        "Ouvrir dans un navigateur"
+        "Ouvrir dans le navigateur"
       when "pt_br"
         "Abrir no navegador"
       else
