@@ -458,10 +458,10 @@ class Messages
   alertMessageUpdateError: =>
     switch @i18n
       when "es_es"
-        "Desgraciadamente, algo ha fallado intentando buscar actualizaciones.
+        'Desgraciadamente, algo ha fallado intentando buscar actualizaciones.
         Si el problema persiste, visita
         <strong><a class="js-link" href="http://guideguide.me">guideguide.me</a></strong>
-        para descargar una nueva versión."
+        para descargar una nueva versión.'
       when "fr_fr"
         "Malheureusement, GuideGuide ne peut chercher des mises à jour maintenant
         Merci de réessayer plus tard"
