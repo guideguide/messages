@@ -102,7 +102,7 @@
         case "es_es":
           return "Sets";
         case "fr_fr":
-          return "Groupes";
+          return "Sets";
         case "pt_br":
           return "Sets";
         default:
@@ -115,7 +115,7 @@
         case "es_es":
           return "Debug";
         case "fr_fr":
-          return "Débugger";
+          return "Débug";
         case "pt_br":
           return "Debug";
         default:
@@ -124,7 +124,16 @@
     };
 
     Messages.prototype.uiClearForm = function() {
-      return "Clear form";
+      switch (this.i18n) {
+        case "es_es":
+          return "Limpiar formulario";
+        case "fr_fr":
+          return "Effacer le formulaire";
+        case "pt_br":
+          return "Limpar formulário";
+        default:
+          return "Clear form";
+      }
     };
 
     Messages.prototype.uiMakeGrid = function() {
@@ -132,7 +141,7 @@
         case "es_es":
           return "Crear retícula";
         case "fr_fr":
-          return "Créer une grille";
+          return "Créer la grille";
         case "pt_br":
           return "Criar grid";
         default:
@@ -145,7 +154,7 @@
         case "es_es":
           return "Guardar set";
         case "fr_fr":
-          return "Enregistrer le groupe";
+          return "Enregistrer le set";
         case "pt_br":
           return "Salvar set";
         default:
@@ -158,7 +167,7 @@
         case "es_es":
           return "Importar sets";
         case "fr_fr":
-          return "Importer les groupes";
+          return "Importer des sets";
         case "pt_br":
           return "Importar sets";
         default:
@@ -171,7 +180,7 @@
         case "es_es":
           return "Exportar sets";
         case "fr_fr":
-          return "Exporter les groupes";
+          return "Exporter des sets";
         case "pt_br":
           return "Exportar sets";
         default:
@@ -184,7 +193,7 @@
         case "es_es":
           return "Punto medio de columna";
         case "fr_fr":
-          return "Point central des colonnes";
+          return "Centre des colonnes";
         case "pt_br":
           return "Ponto central da coluna";
         default:
@@ -197,7 +206,7 @@
         case "es_es":
           return "Punto medio de fila";
         case "fr_fr":
-          return "Point central des rangées";
+          return "Centre des lignes";
         case "pt_br":
           return "Ponto central da linha";
         default:
@@ -210,7 +219,7 @@
         case "es_es":
           return "Punto medio del medianil";
         case "fr_fr":
-          return "Point central des gouttières";
+          return "Centre des gouttières";
         case "pt_br":
           return "Ponto central do espaçamento";
         default:
@@ -245,11 +254,29 @@
     };
 
     Messages.prototype.uiOn = function() {
-      return "On";
+      switch (this.i18n) {
+        case "es_es":
+          return "Encendido";
+        case "fr_fr":
+          return "Activé";
+        case "pt_br":
+          return "Ligar";
+        default:
+          return "On";
+      }
     };
 
     Messages.prototype.uiOff = function() {
-      return "Off";
+      switch (this.i18n) {
+        case "es_es":
+          return "Apagado";
+        case "fr_fr":
+          return "Désactivé";
+        case "pt_br":
+          return "Desligar";
+        default:
+          return "Off";
+      }
     };
 
     Messages.prototype.uiDonate = function() {
@@ -257,7 +284,7 @@
         case "es_es":
           return "Donar";
         case "fr_fr":
-          return "Donner";
+          return "Faire un don";
         case "pt_br":
           return "Doar";
         default:
@@ -270,7 +297,7 @@
         case "es_es":
           return "Buscar actualizaciones";
         case "fr_fr":
-          return "Recherche de mises à jour";
+          return "Vérifier les mises à jour";
         case "pt_br":
           return "Buscar atualizações";
         default:
@@ -283,7 +310,7 @@
         case "es_es":
           return "Mostrar logs";
         case "fr_fr":
-          return "Montrer le journal";
+          return "Afficher l'historique";
         case "pt_br":
           return "Mostrar logs";
         default:
@@ -292,7 +319,16 @@
     };
 
     Messages.prototype.uiSnapToPixels = function() {
-      return "Snap to pixels";
+      switch (this.i18n) {
+        case "es_es":
+          return "Encajar en pixels";
+        case "fr_fr":
+          return "Magnétisme des pixels";
+        case "pt_br":
+          return "Encaixar nos pixels";
+        default:
+          return "Snap to pixels";
+      }
     };
 
     Messages.prototype.uiHorizontalPosition = function() {
@@ -326,7 +362,7 @@
         case "es_es":
           return "Resto horizontal";
         case "fr_fr":
-          return "Reste horizontal";
+          return "Excédent horizontal";
         case "pt_br":
           return "Restante horizontal";
         default:
@@ -339,7 +375,7 @@
         case "es_es":
           return "Resto vertical";
         case "fr_fr":
-          return "Reste vertical";
+          return "Excédent vertical";
         case "pt_br":
           return "Restante vertical";
         default:
@@ -430,7 +466,7 @@
         case "es_es":
           return "No, gracias";
         case "fr_fr":
-          return "Non merci";
+          return "Non, merci";
         case "pt_br":
           return "Não, obrigado";
         default:
@@ -443,7 +479,7 @@
         case "es_es":
           return "Abrir en navegador";
         case "fr_fr":
-          return "Ouvrir dans un navigateur";
+          return "Ouvrir dans le navigateur";
         case "pt_br":
           return "Abrir no navegador";
         default:
@@ -456,7 +492,7 @@
         case "es_es":
           return "Importa sets pegando una url de GitHub Gist en el campo de texto de abajo.";
         case "fr_fr":
-          return "Importer des groupes en collant un url Github Gist dans le champ de texte ci-dessous";
+          return "Importez des sets en collant une url Github Gist dans le champ ci-dessous.";
         case "pt_br":
           return "Importar os sets colando uma URL de GitHub Gist no campo de texto abaixo.";
         default:
@@ -469,7 +505,7 @@
         case "es_es":
           return 'Estos son los datos de un set de guías exportado por el plugin GuideGuide. Para importarlos, haz click en el botón "Importar" en los ajustes de GuideGuide y pega la url de este Gist en el campo de texto.';
         case "fr_fr":
-          return 'Ceci est un groupe de données de guides exporté par le plugin GuideGuide. Pour les importer, cliquez sur le bouton "importer" dans les réglages de GuideGuide et collez cet url Gist dans le champ texte';
+          return 'Ceci est un guide sur les données des sets exportées par l\'extension GuideGuide. Pour les importer, cliquez sur le bouton "Importer" dans les paramètres de GuideGuide et collez cette url Gist dans le champ.';
         case "pt_br":
           return 'Este é o guia de dados de set exportados pelo plugin GuideGuide. Para importar -lo, clique no botão "Importar" nas configurações do GuideGuide e cole a url do Gist no campo de texto';
         default:
@@ -495,7 +531,7 @@
         case "es_es":
           return "Ya tienes la última versión de GuideGuide.";
         case "fr_fr":
-          return "Ceci est la version la plus récente de GuideGuide";
+          return "GuideGuide est à jour.";
         case "pt_br":
           return "O GuideGuide está atualizado com a última versão.";
         default:
@@ -508,7 +544,7 @@
         case "es_es":
           return "Error buscando actualizaciones";
         case "fr_fr":
-          return "Erreur lors de la recherche de mises à jour";
+          return "Erreur lors de la vérification des mises à jour";
         case "pt_br":
           return "Erro na verificação de atualizações";
         default:
@@ -519,13 +555,13 @@
     Messages.prototype.alertMessageUpdateError = function() {
       switch (this.i18n) {
         case "es_es":
-          return "Desgraciadamente, GuideGuide no ha sido capaz de buscar actualizaciones en este momento. Por favor, inténtalo de nuevo más adelante.";
+          return 'Desgraciadamente, algo ha fallado intentando buscar actualizaciones. Si el problema persiste, visita <strong><a class="js-link" href="http://guideguide.me">guideguide.me</a></strong> para descargar una nueva versión.';
         case "fr_fr":
-          return "Malheureusement, GuideGuide ne peut chercher des mises à jour maintenant Merci de réessayer plus tard";
+          return 'Malheureusement, une erreur est survenue lors de la vérification des mises à jour. Si le problème persiste, consultez le site <strong><a class="js-link" href="http://guideguide.me">guideguide.me</a></strong> pour de nouvelles versions.';
         case "pt_br":
-          return "Infelizmente, GuideGuide foi incapaz de verificar se há atualizações neste momento. Por favor, tente novamente mais tarde.";
+          return 'Infelizmente, algo deu errado ao tentar verificar se há atualizações. Se o problema persistir, verifique <strong><a class="js-link" href="http://guideguide.me">guideguide.me</a></strong> para novas versões.';
         default:
-          return "Unfortunately, GuideGuide is unable to check for updates at this time. Please try again later.";
+          return 'Unfortunately, something went wrong when trying to check for updates. If the problem persists, check <strong><a class="js-link" href="http://guideguide.me">guideguide.me</a></strong> for new versions.';
       }
     };
 
@@ -534,7 +570,7 @@
         case "es_es":
           return "Actualizaciones disponibles";
         case "fr_fr":
-          return "Mise à jour disponible";
+          return "Mises à jour disponibles";
         case "pt_br":
           return "Atualizações disponíveis";
         default:
@@ -547,7 +583,7 @@
         case "es_es":
           return "Actualiza GuideGuide para obtener la última versión";
         case "fr_fr":
-          return "Mettez GuideGuide à jour pour obtenir la version la plus récente";
+          return "Obtenez la dernière version de GuideGuide.";
         case "pt_br":
           return "Atualize o GuideGuide para obter a versão mais recente.";
         default:
@@ -560,7 +596,7 @@
         case "es_es":
           return "Sets importados";
         case "fr_fr":
-          return "Groupes importés";
+          return "Sets importés";
         case "pt_br":
           return "Sets importados";
         default:
@@ -573,7 +609,7 @@
         case "es_es":
           return "Tus sets se han importado correctamente.";
         case "fr_fr":
-          return "Vos groupes ont été importés avec succès.";
+          return "Vos sets ont été importés avec succès.";
         case "pt_br":
           return "Seus sets foram importados corretamente.";
         default:
@@ -599,7 +635,7 @@
         case "es_es":
           return "Desgraciadamente, GuideGuide no ha sido capaz de importar sets en este momento. Por favor, inténtalo de nuevo más adelante.";
         case "fr_fr":
-          return "Malheureusement, GuideGuide ne peut importer des groupes maintenant. Merci de réessayer plus tard.";
+          return "Malheureusement, GuideGuide n'est pas en mesure actuellement d'importer les sets. Veuillez réessayer plus tard.";
         case "pt_br":
           return "Infelizmente, o GuideGuide não foi capaz de importar os sets neste momento. Por favor, tente novamente mais tarde.";
         default:
@@ -625,7 +661,7 @@
         case "es_es":
           return "GuideGuide no ha sido capaz de encontrar sets.json en este Gist.";
         case "fr_fr":
-          return "GuideGuide n'a pas trouvé de document sets.json dans ce Gist.";
+          return "GuideGuide n'a pas été en mesure de trouver le fichier sets.json dans ce Gist.";
         case "pt_br":
           return "O GuideGuide não foi capaz de encontrar o arquivo sets.json neste Gist.";
         default:
@@ -651,7 +687,7 @@
         case "es_es":
           return "El texto de entrada no contiene una url de GitHub Gist.";
         case "fr_fr":
-          return "Le texte d'entrée ne contient pas d'url GitHub Gist.";
+          return "Le champ ne contient aucune url GitHub Gist.";
         case "pt_br":
           return "O texto de entrada não contém uma url do GitHub Gist.";
         default:
@@ -664,7 +700,7 @@
         case "es_es":
           return "Sets exportados";
         case "fr_fr":
-          return "Les groupes ont été exportés";
+          return "Les sets ont été exportés";
         case "pt_br":
           return "Configurações exportadas";
         default:
@@ -679,7 +715,7 @@
         case "es_es":
           return "Tus sets han sido exportados a un GitHub Gist secreto. " + button;
         case "fr_fr":
-          return "Vos groupes ont été exportés dans un Github Gist secret. " + button;
+          return "Vos sets ont été exportés vers un Github Gist secret. " + button;
         case "pt_br":
           return "Seus sets foram exportadas para um GitHub Gist secreto. " + button;
         default:
@@ -705,7 +741,7 @@
         case "es_es":
           return "Desgraciadamente, GuideGuide no ha sido capaz de exportar sets en este momento. Por favor, inténtalo de nuevo más adelante.";
         case "fr_fr":
-          return "Malheureusement, GuideGuide ne peut exporter des groupes maintenant. Merci de réessayer plus tard.";
+          return "Malheureusement, GuideGuide n'est pas en mesure actuellement d'exporter les sets. Veuillez réessayer plus tard.";
         case "pt_br":
           return "Infelizmente, o GuideGuide não foi capaz de exportar os sets neste momento. Por favor, tente novamente mais tarde.";
         default:
@@ -731,7 +767,7 @@
         case "es_es":
           return "¡Vaya, ya has usado GuideGuide 30 veces! Parece que le estás sacando bastante partido a GuideGuide, ¿te interesaría hacer una donación para contribuir a su desarrollo?";
         case "fr_fr":
-          return "Wow, vous avez utilisé GuideGuide 30 fois ! Vu que vous semblez l'utiliser souvent, avez-vous pensé à effectuer une donation pour contribuer à son développement ?";
+          return "Wow, vous avez utilisé GuideGuide 30 fois ! Comme vous semblez utiliser et apprécier GuideGuide, pourquoi ne pas envisager de faire un don pour supporter son développement ?";
         case "pt_br":
           return "Yowza, você já usou o GuideGuide 30 vezes! Parece que o GuideGuide anda sendo bem útil, Você consideraria fazer uma doação para o desenvolvimento?";
         default:
@@ -744,7 +780,7 @@
         case "es_es":
           return "Comando no reconocido";
         case "fr_fr":
-          return "Commande inconnue";
+          return "Commande non reconnue";
         case "pt_br":
           return "Comando desconhecido";
         default:
@@ -757,7 +793,7 @@
         case "es_es":
           return "Esta cadena no contiene ninguna retícula";
         case "fr_fr":
-          return "Cette chaîne ne contient aucune grille";
+          return "Cette chaîne de caractères ne contient aucune grille";
         case "pt_br":
           return "Esta palavra não contém nenhuma grids";
         default:
@@ -770,7 +806,7 @@
         case "es_es":
           return "Los comodines no pueden ser rellenos";
         case "fr_fr":
-          return "Les jokers ne peuvent être du remplissage";
+          return "Les métacaractères ne peuvent être un remplissage";
         case "pt_br":
           return "Wildcards não podem ser preenchido";
         default:
@@ -809,7 +845,7 @@
         case "es_es":
           return "Variable no definida";
         case "fr_fr":
-          return "Variable indéfini";
+          return "Variable indéfinie";
         case "pt_br":
           return "Variável não definida";
         default:
@@ -822,7 +858,7 @@
         case "es_es":
           return "Cadena generada a partir de las guías existentes";
         case "fr_fr":
-          return "Chaîne générée à partir de code existant";
+          return "Chaîne de caratères générée à partir de guides existant";
         case "pt_br":
           return "Palavra gerada a partir das guias existentes";
         default:
