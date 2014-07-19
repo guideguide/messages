@@ -679,7 +679,7 @@ class Messages
       when "es_es"
         "Comando no reconocido"
       when "fr_fr"
-        "Commande inconnue"
+        "Commande non reconnue"
       when "pt_br"
         "Comando desconhecido"
       else
@@ -691,7 +691,7 @@ class Messages
       when "es_es"
         "Esta cadena no contiene ninguna retícula"
       when "fr_fr"
-        "Cette chaîne ne contient aucune grille"
+        "Cette chaîne de caractères ne contient aucune grille"
       when "pt_br"
         "Esta palavra não contém nenhuma grids"
       else
@@ -703,7 +703,7 @@ class Messages
       when "es_es"
         "Los comodines no pueden ser rellenos"
       when "fr_fr"
-        "Les jokers ne peuvent être du remplissage"
+        "Les métacaractères ne peuvent être un remplissage"
       when "pt_br"
         "Wildcards não podem ser preenchido"
       else
@@ -750,7 +750,7 @@ class Messages
       when "es_es"
         "Cadena generada a partir de las guías existentes"
       when "fr_fr"
-        "Chaîne générée à partir de code existant"
+        "Chaîne de caratères générée à partir de guides existant"
       when "pt_br"
         "Palavra gerada a partir das guias existentes"
       else
