@@ -438,7 +438,7 @@ class Messages
       when "es_es"
         "Ya tienes la última versión de GuideGuide."
       when "fr_fr"
-        "Ceci est la version la plus récente de GuideGuide"
+        "GuideGuide est à jour."
       when "pt_br"
         "O GuideGuide está atualizado com a última versão."
       else
@@ -449,7 +449,7 @@ class Messages
       when "es_es"
         "Error buscando actualizaciones"
       when "fr_fr"
-        "Erreur lors de la recherche de mises à jour"
+        "Erreur lors de la vérification des mises à jour"
       when "pt_br"
         "Erro na verificação de atualizações"
       else
@@ -492,7 +492,7 @@ class Messages
       when "es_es"
         "Actualiza GuideGuide para obtener la última versión"
       when "fr_fr"
-        "Mettez GuideGuide à jour pour obtenir la version la plus récente"
+        "Obtenez la dernière version de GuideGuide."
       when "pt_br"
         "Atualize o GuideGuide para obter a versão mais recente."
       else
@@ -503,7 +503,7 @@ class Messages
       when "es_es"
         "Sets importados"
       when "fr_fr"
-        "Groupes importés"
+        "Sets importés"
       when "pt_br"
         "Sets importados"
       else
@@ -514,7 +514,7 @@ class Messages
       when "es_es"
         "Tus sets se han importado correctamente."
       when "fr_fr"
-        "Vos groupes ont été importés avec succès."
+        "Vos sets ont été importés avec succès."
       when "pt_br"
         "Seus sets foram importados corretamente."
       else
@@ -537,8 +537,8 @@ class Messages
         "Desgraciadamente, GuideGuide no ha sido capaz de importar sets en este
         momento. Por favor, inténtalo de nuevo más adelante."
       when "fr_fr"
-        "Malheureusement, GuideGuide ne peut importer des groupes maintenant.
-        Merci de réessayer plus tard."
+        "Malheureusement, GuideGuide n'est pas en mesure actuellement d'importer 
+        les sets. Veuillez réessayer plus tard."
       when "pt_br"
         "Infelizmente, o GuideGuide não foi capaz de importar os sets neste
         momento. Por favor, tente novamente mais tarde."
@@ -562,7 +562,7 @@ class Messages
       when "es_es"
         "GuideGuide no ha sido capaz de encontrar sets.json en este Gist."
       when "fr_fr"
-        "GuideGuide n'a pas trouvé de document sets.json dans ce Gist."
+        "GuideGuide n'a pas été en mesure de trouver le fichier sets.json dans ce Gist."
       when "pt_br"
         "O GuideGuide não foi capaz de encontrar o arquivo sets.json neste Gist."
       else
@@ -584,7 +584,7 @@ class Messages
       when "es_es"
         "El texto de entrada no contiene una url de GitHub Gist."
       when "fr_fr"
-        "Le texte d'entrée ne contient pas d'url GitHub Gist."
+        "Le champ ne contient aucune url GitHub Gist."
       when "pt_br"
         "O texto de entrada não contém uma url do GitHub Gist."
       else
@@ -595,7 +595,7 @@ class Messages
       when "es_es"
         "Sets exportados"
       when "fr_fr"
-        "Les groupes ont été exportés"
+        "Les sets ont été exportés"
       when "pt_br"
         "Configurações exportadas"
       else
@@ -607,7 +607,7 @@ class Messages
       when "es_es"
         "Tus sets han sido exportados a un GitHub Gist secreto. #{ button }"
       when "fr_fr"
-        "Vos groupes ont été exportés dans un Github Gist secret. #{ button }"
+        "Vos sets ont été exportés vers un Github Gist secret. #{ button }"
       when "pt_br"
         "Seus sets foram exportadas para um GitHub Gist secreto. #{ button }"
       else
@@ -630,8 +630,8 @@ class Messages
         "Desgraciadamente, GuideGuide no ha sido capaz de exportar sets en este
         momento. Por favor, inténtalo de nuevo más adelante."
       when "fr_fr"
-        "Malheureusement, GuideGuide ne peut exporter des groupes maintenant.
-        Merci de réessayer plus tard."
+        "Malheureusement, GuideGuide n'est pas en mesure actuellement d'exporter 
+        les sets. Veuillez réessayer plus tard."
       when "pt_br"
         "Infelizmente, o GuideGuide não foi capaz de exportar os sets neste
         momento. Por favor, tente novamente mais tarde."
@@ -657,9 +657,9 @@ class Messages
         bastante partido a GuideGuide, ¿te interesaría hacer una donación para
         contribuir a su desarrollo?"
       when "fr_fr"
-        "Wow, vous avez utilisé GuideGuide 30 fois ! Vu que vous semblez l'utiliser
-        souvent, avez-vous pensé à effectuer une donation pour contribuer
-        à son développement ?"
+        "Wow, vous avez utilisé GuideGuide 30 fois ! Comme vous semblez utiliser
+        et apprécier GuideGuide, pourquoi ne pas envisager de faire un don
+        pour supporter son développement ?"
       when "pt_br"
         "Yowza, você já usou o GuideGuide 30 vezes! Parece que o GuideGuide anda
         sendo bem útil, Você consideraria fazer uma doação para o desenvolvimento?"
