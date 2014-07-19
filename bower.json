@@ -12,6 +12,7 @@
   "license": "MIT",
   "private": true,
   "ignore": [
+    "**/*",
     "./!(messages.js)"
   ]
 }
