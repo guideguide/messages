@@ -1,6 +1,0 @@
-#!/bin/sh
-# usage: script/compile
-#
-# compile messages for publishing
-
-coffee -o . -c ./src/messages.coffee
