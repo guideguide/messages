@@ -566,6 +566,107 @@ define ->
           registro anónimo de uso con el fin de ayudar a mejorar el producto?
         "
 
+      # Menu item that duplicates all guides in the selected contexts to all
+      # documents. Appears in the flyout menu and the history state that results
+      # from the action.
+      menuDuplicateToOpenDocuments:
+        en_us: -> "Duplicate guides to open documents"
+        # TODO: fr_fr
+        # TODO: pt_br
+        # TODO: es_es
+
+      # Menu item that duplicates all guides in the selected contexts to all
+      # artboards. Appears in the flyout menu and the history state that results
+      # from the action.
+      menuDuplicateToArtboards:
+        en_us: -> "Duplicate guides to artboards"
+        # TODO: fr_fr
+        # TODO: pt_br
+        # TODO: es_es
+
+      # Menu item that clears all guides in the document. Appears in the flyout
+      # menu and the history state that results from the action.
+      menuClearAllGuides:
+        en_us: -> "Clear all guides"
+        # TODO: fr_fr
+        # TODO: pt_br
+        # TODO: es_es
+
+      # Menu item that clears all guides in the currently selected artboards.
+      # Appears in the flyout menu and the history state that results from the
+      # action.
+      menuClearArtboardGuides:
+        en_us: -> "Clear selected artboard guides"
+        # TODO: fr_fr
+        # TODO: pt_br
+        # TODO: es_es
+
+      # Menu item that clears canvas guides. Appears in the flyout menu and the
+      # history state that results from the action.
+      menuClearCanvasGuides:
+        en_us: -> "Clear canvas guides"
+        # TODO: fr_fr
+        # TODO: pt_br
+        # TODO: es_es
+
+      # Menu item that clears all vertical guides in a given context. Appears
+      # in the flyout menu and the history state that results from the action.
+      menuClearVerticalGuides:
+        en_us: -> "Clear vertical guides"
+        # TODO: fr_fr
+        # TODO: pt_br
+        # TODO: es_es
+
+      # Menu item that clears all horizontal guides in a given context. Appears
+      # in the flyout menu and the history state that results from the action.
+      menuClearHorizontalGuides:
+        en_us: -> "Clear horizontal guides"
+        # TODO: fr_fr
+        # TODO: pt_br
+        # TODO: es_es
+
+      # Menu item that triggers the Google Analytics tracking setting prompt.
+      # Appears in the flyout menu.
+      menuTrackingSettings:
+        en_us: -> "Tracking settings"
+        # TODO: fr_fr
+        # TODO: pt_br
+        # TODO: es_es
+
+      # Menu item that opens the GuideGuide installation directory. Appears in
+      # the flyout menu.
+      menuUninstall:
+        en_us: -> "Uninstall"
+        # TODO: fr_fr
+        # TODO: pt_br
+        # TODO: es_es
+
+      # Menu item that toggles debug logging. Appears in the flyout menu.
+      menuDebug:
+        en_us: -> "Debug"
+        # TODO: fr_fr
+        # TODO: pt_br
+        # TODO: es_es
+
+      # Menu item that will open guideguide.me. Appears in the flyout menu of
+      # the trial version.
+      menuBuyGuideGuide:
+        en_us: -> "Buy GuideGuide"
+        # TODO: fr_fr
+        # TODO: pt_br
+        # TODO: es_es
+
+      # Label for the history state that appears in documents in which guides
+      # have been copied *to*. Will appear like:
+      #
+      #   “Duplicate guides from MyCoolDoc.psd”
+      historyDuplicateGuidesFrom:
+        en_us: -> "Duplicate guides from"
+        # TODO: fr_fr
+        # TODO: pt_br
+        # TODO: es_es
+
+
       # Error message that appears when a user attempts to import a non-json
       # file. Appears in the import modal.
       errNotJSON:
