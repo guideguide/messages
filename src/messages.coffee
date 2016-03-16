@@ -178,6 +178,12 @@ define ->
         fr_fr: -> "À partir d'un Gist de GitHub"
         pt_br: -> "A partir de um Gist do GitHub"
         es_es: -> "Desde un Gist de GitHub"
+        
+      btnNewFromExisting:
+        en_us: -> "New grid from existing guides"
+        fr_fr: -> "Nouvelle grille à partir des guides existants"
+        pt_br: -> "Novo grid a partir de um grid já existente"
+        es_es: -> "Nueva retícula a partir de las guías existentes"
 
       # Label for the button that allows for exporting data to a file. Appears
       # in the export modal.
