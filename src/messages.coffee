@@ -32,7 +32,7 @@ define ->
       # Label for the first tab in the UI. Refers to the grid form.
       tabForm:
         en_us: -> "Form"
-        fr_fr: -> "Formulaire"
+        fr_fr: -> "Création"
         pt_br: -> "Formulário"
         es_es: -> "Formulario"
 
@@ -40,14 +40,14 @@ define ->
       # "custom" grids.
       tabCustom:
         en_us: -> "Custom"
-        fr_fr: -> "Personnalisé"
+        fr_fr: -> "Code"
         pt_br: -> "Customizado"
         es_es: -> "Personalizado"
 
       # Label for the third tab in the UI. Refers to the saved grid list.
       tabSaved:
         en_us: -> "Saved"
-        fr_fr: -> "Enregistrés"
+        fr_fr: -> "Collection"
         pt_br: -> "Salvo"
         es_es: -> "Guardado"
 
@@ -55,7 +55,7 @@ define ->
       # guides of the form, grid notation, or selected grid.
       btnAddGuides:
         en_us: -> "Add guides"
-        fr_fr: -> "Ajouter les guides"
+        fr_fr: -> "Ajouter les repères"
         pt_br: -> "Adicionar guias"
         es_es: -> "Añadir guías"
 
@@ -108,7 +108,7 @@ define ->
       # tabs.
       btnResetForm:
         en_us: -> "Reset form"
-        fr_fr: -> "Réinitialiser le formulaire"
+        fr_fr: -> "Effacer"
         pt_br: -> "Resetar formulário"
         es_es: -> "Resetear formulario"
 
@@ -141,7 +141,7 @@ define ->
       # menu on the Saved tab.
       btnImport:
         en_us: -> "Import"
-        fr_fr: -> "Importer"
+        fr_fr: -> "Importation"
         pt_br: -> "Importar"
         es_es: -> "Importar"
 
@@ -149,7 +149,7 @@ define ->
       # menu on the Saved tab.
       btnExport:
         en_us: -> "Export"
-        fr_fr: -> "Exporter"
+        fr_fr: -> "Exportation"
         pt_br: -> "Exportar"
         es_es: -> "Exportar"
 
@@ -201,7 +201,7 @@ define ->
       # the document. Appears in the “more” menu on the Saved tab.
       btnNewFromExisting:
         en_us: -> "New grid from existing guides"
-        fr_fr: -> "Nouvelle grille à partir des guides existants"
+        fr_fr: -> "Nouvelle grille à partir des repères existants"
         pt_br: -> "Novo grid a partir de um grid já existente"
         es_es: -> "Nueva retícula a partir de las guías existentes"
 
@@ -334,7 +334,7 @@ define ->
       # Default title for new grids. Appears when saving a grid.
       titleUntitledGrid:
         en_us: -> "Untitled Grid"
-        fr_fr: -> "Grille sans nom"
+        fr_fr: -> "Sans titre"
         pt_br: -> "Grid sem Nome"
         es_es: -> "Retícula Sin Título"
 
@@ -349,14 +349,14 @@ define ->
       # Name for the default two column grid.
       titleTwoColumnGrid:
         en_us: -> "Two column grid"
-        fr_fr: -> "Grille à deux colonnes"
+        fr_fr: -> "Deux colonnes"
         pt_br: -> "Grid com duas colunas"
         es_es: -> "Retícula de dos columnas"
 
       # Name for the default three column grid.
       titleThreeColumnGrid:
         en_us: -> "Three column grid"
-        fr_fr: -> "Grille à trois colonnes"
+        fr_fr: -> "Trois colonnes"
         pt_br: -> "Grid com três colunas"
         es_es: -> "Retícula de tres columnas"
 
@@ -395,7 +395,7 @@ define ->
       # on the left side of the context.
       tooltipLeftBorder:
         en_us: -> "Left border"
-        fr_fr: -> "Bordure gauche"
+        fr_fr: -> "Bord gauche"
         pt_br: -> "Borda da esquerda"
         es_es: -> "Borde izquierdo"
 
@@ -403,7 +403,7 @@ define ->
       # on the right side of the context.
       tooltipRightBorder:
         en_us: -> "Right border"
-        fr_fr: -> "Bordure droite"
+        fr_fr: -> "Bord droite"
         pt_br: -> "Borda da direita"
         es_es: -> "Borde derecho"
 
@@ -411,7 +411,7 @@ define ->
       # on the top of the context.
       tooltipTopBorder:
         en_us: -> "Top border"
-        fr_fr: -> "Bordure supérieure"
+        fr_fr: -> "Bord supérieur"
         pt_br: -> "Borda superior"
         es_es: -> "Borde superior"
 
@@ -419,7 +419,7 @@ define ->
       # on the bottom of the context.
       tooltipBottomBorder:
         en_us: -> "Bottom border"
-        fr_fr: -> "Bordure inférieure"
+        fr_fr: -> "Bord inférieur"
         pt_br: -> "Borda inferior"
         es_es: -> "Borde inferior"
 
@@ -427,7 +427,7 @@ define ->
       # in the middle of the context.
       tooltipMidpoint:
         en_us: -> "Midpoint"
-        fr_fr: -> "Milieu"
+        fr_fr: -> "Centre"
         pt_br: -> "Ponto médio"
         es_es: -> "Punto medio"
 
@@ -435,7 +435,7 @@ define ->
       # guides within the context.
       tooltipClearGuides:
         en_us: -> "Clear guides"
-        fr_fr: -> "Effacer les guides"
+        fr_fr: -> "Effacer les repères"
         pt_br: -> "Limpar guias"
         es_es: -> "Limpiar guías"
 
@@ -443,7 +443,7 @@ define ->
       # panel which toggles the guide visibility setting.
       tooltipToggleGuideVisibility:
         en_us: -> "Toggle guide visibility"
-        fr_fr: -> "Afficher/masquer les guides"
+        fr_fr: -> "Afficher/masquer les repères"
         pt_br: -> "Alternar a visibilidade da guia"
         es_es: -> "Alternar visibilidad de guías"
 
@@ -468,8 +468,8 @@ define ->
       msgCustomUpsell:
         en_us: -> "Buy the full version to create any grid you can think of."
         fr_fr: -> "
-          Acheter la version complète pour créer toutes les grilles auquelles
-          vous pouvez penser.
+          Acheter la version complète pour créer toutes les grilles que vous
+          pouvez imaginer.
         "
         pt_br: -> "
           Compre a versão completa para criar qualquer tipo de grid que você
@@ -500,8 +500,8 @@ define ->
       msgQuickUpsell:
         en_us: -> "Buy the full version to clear and add guides quickly."
         fr_fr: -> "
-          Acheter la verison complète pour effacer et ajouter des guides
-          rapidement.
+          Acheter la verison complète pour effacer et ajouter des repères
+          facilement.
           "
         pt_br: -> "
           Compre a versão completa para criar e deletar guias de maneira mais
@@ -541,7 +541,7 @@ define ->
       # to submit usage data via Google Analytics.
       titleGoogleAnalytics:
         en_us: -> "Submit usage data"
-        fr_fr: -> "Envoyer vos données d'utilisation"
+        fr_fr: -> "Collecte des données d'utilisation"
         pt_br: -> "Enviar dados de uso"
         es_es: -> "Enviar datos de uso"
 
@@ -553,8 +553,9 @@ define ->
           usage information to help improve the product?
         "
         fr_fr: -> "
-          Autorisez-vous GuideGuide à utiliser Google Analytics pour suivre
-		  anonymement les informations d'utilisation pour améliorer le plugin ?
+          Autoriser GuideGuide à utiliser Google Analytics pour collecter 
+          anonymement des informations d'utilisation et aider à améliorer le 
+          plugin ?
         "
         pt_br: -> "
           Você vai permitir que GuideGuide use o Google Analytics para
@@ -571,7 +572,7 @@ define ->
       # from the action.
       menuDuplicateToOpenDocuments:
         en_us: -> "Duplicate guides to open documents"
-        # TODO: fr_fr
+        fr_fr: -> "Dupliquer les repères vers les documents ouverts"
         # TODO: pt_br
         # TODO: es_es
 
@@ -580,7 +581,7 @@ define ->
       # from the action.
       menuDuplicateToArtboards:
         en_us: -> "Duplicate guides to artboards"
-        # TODO: fr_fr
+        fr_fr: -> "Dupliquer les repères vers les plans de travail"
         # TODO: pt_br
         # TODO: es_es
 
@@ -588,7 +589,7 @@ define ->
       # menu and the history state that results from the action.
       menuClearAllGuides:
         en_us: -> "Clear all guides"
-        # TODO: fr_fr
+        fr_fr: -> "Effacer tous les repères"
         # TODO: pt_br
         # TODO: es_es
 
@@ -597,7 +598,7 @@ define ->
       # action.
       menuClearArtboardGuides:
         en_us: -> "Clear selected artboard guides"
-        # TODO: fr_fr
+        fr_fr: -> "Effacer les repères du plan de travail"
         # TODO: pt_br
         # TODO: es_es
 
@@ -605,7 +606,7 @@ define ->
       # history state that results from the action.
       menuClearCanvasGuides:
         en_us: -> "Clear canvas guides"
-        # TODO: fr_fr
+        fr_fr: -> "Effacer les repères de la zone de travail"
         # TODO: pt_br
         # TODO: es_es
 
@@ -613,7 +614,7 @@ define ->
       # in the flyout menu and the history state that results from the action.
       menuClearVerticalGuides:
         en_us: -> "Clear vertical guides"
-        # TODO: fr_fr
+        fr_fr: -> "Effacer les repères verticaux"
         # TODO: pt_br
         # TODO: es_es
 
@@ -621,7 +622,7 @@ define ->
       # in the flyout menu and the history state that results from the action.
       menuClearHorizontalGuides:
         en_us: -> "Clear horizontal guides"
-        # TODO: fr_fr
+        fr_fr: -> "Effacer les repères horizontaux"
         # TODO: pt_br
         # TODO: es_es
 
@@ -629,7 +630,7 @@ define ->
       # Appears in the flyout menu.
       menuTrackingSettings:
         en_us: -> "Tracking settings"
-        # TODO: fr_fr
+        fr_fr: -> "Préférences de suivi"
         # TODO: pt_br
         # TODO: es_es
 
@@ -637,14 +638,14 @@ define ->
       # the flyout menu.
       menuUninstall:
         en_us: -> "Uninstall"
-        # TODO: fr_fr
+        fr_fr: -> "Désinstaller"
         # TODO: pt_br
         # TODO: es_es
 
       # Menu item that toggles debug logging. Appears in the flyout menu.
       menuDebug:
         en_us: -> "Debug"
-        # TODO: fr_fr
+        fr_fr: -> "Débogage"
         # TODO: pt_br
         # TODO: es_es
 
@@ -652,7 +653,7 @@ define ->
       # the trial version.
       menuBuyGuideGuide:
         en_us: -> "Buy GuideGuide"
-        # TODO: fr_fr
+        fr_fr: -> "Acheter GuideGuide"
         # TODO: pt_br
         # TODO: es_es
 
@@ -662,7 +663,7 @@ define ->
       #   “Duplicate guides from MyCoolDoc.psd”
       historyDuplicateGuidesFrom:
         en_us: -> "Duplicate guides from"
-        # TODO: fr_fr
+        fr_fr: -> "Dupliquer les repères à partir de"
         # TODO: pt_br
         # TODO: es_es
 
@@ -671,7 +672,7 @@ define ->
       # file. Appears in the import modal.
       errNotJSON:
         en_us: -> "Selected file must be a .json file"
-        fr_fr: -> "Le fichier sélectionné doit être au format .json"
+        fr_fr: -> "Le fichier doit être au format .json"
         pt_br: -> "O arquivo selecionado tem que ser um arquivo .json"
         es_es: -> "El fichero seleccionado debe ser un fichero .json"
 
@@ -679,7 +680,7 @@ define ->
       # read. Appears in the import modal.
       errFileRead:
         en_us: -> "Selected file could not be read"
-        fr_fr: -> "Le fichier sélectionné n'a pas pu être lu"
+        fr_fr: -> "Le fichier n'a pas pu être lu"
         pt_br: -> "O arquivo selecionado não pode ser lido"
         es_es: -> "El fichero seleccionado no pudo leerse"
 
@@ -698,7 +699,7 @@ define ->
       # http://guideguide.me/documentation/grid-notation#errors
       gnError2:
         en_us: -> "This string does not contain any grids"
-        fr_fr: -> "Cette synthaxe ne contient aucune grille"
+        fr_fr: -> "La synthaxe ne contient aucune grille"
         pt_br: -> "Este arquivo não contém nenhum grid"
         es_es: -> "Esta cadena no contiene ninguna retícula"
 
@@ -713,8 +714,8 @@ define ->
       gnError3:
         en_us: -> "Variables used as fills cannot contain wildcards"
         fr_fr: -> "
-          Les variables de remplissage ne peuvent pas contient de caractère de
-          remplacement
+          Les variables utilisées comme itération ne peuvent pas contient de
+          métacaractère
         "
         pt_br: -> "As variáveis não podem conter wildcards (*)"
         es_es: -> "
@@ -729,7 +730,7 @@ define ->
       # http://guideguide.me/documentation/grid-notation#errors
       gnError4:
         en_us: -> "A grid cannot contain more than one fill"
-        fr_fr: -> "Une grille ne peut contenir plus d'un remplissage"
+        fr_fr: -> "Une grille ne peut contenir qu'une seule itération"
         pt_br: -> "Um grid não pode conter mais do que um valor"
         es_es: -> "Una retícula no puede contener más de un relleno"
 
@@ -742,7 +743,7 @@ define ->
       # http://guideguide.me/documentation/grid-notation#errors
       gnError5:
         en_us: -> "Variables cannot contain fills"
-        fr_fr: -> "Les variables ne peuvent contenir de remplissage"
+        fr_fr: -> "Les variables ne peuvent pas contenir d'itération"
         pt_br: -> "As variáveis não podem ser preenchidas"
         es_es: -> "Las variables no pueden contener rellenos"
 
