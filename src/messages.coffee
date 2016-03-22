@@ -591,7 +591,8 @@ define ->
       # the trial expires.
       msgFreeVersionEnabled:
         en_us: -> "
-          You’ve used GuideGuide 30 times! You can buy the full version to renable the full features.
+          You’ve used GuideGuide 30 times! You can buy the full version to
+          renable the full features.
         "
         fr_fr: -> "
           Vous avez utilisé GuideGuide 30 fois ! Vous pouvez acheter la version
@@ -602,7 +603,9 @@ define ->
           para reabilitar todas as funcionalidades.
         "
         es_es: -> "
-          ¡Has usado GuideGuide 30 veces! Puedes comprar la versión completa para reactivar todas las funcionalidades.
+          ¡Has usado GuideGuide 30 veces! Puedes comprar la versión completa
+          para reactivar todas las funcionalidades.
+        "
         pl_pl: -> "
           Użyto GuideGuide 30 razy! Możesz teraz kupić pełną wersją.
         "
