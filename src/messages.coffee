@@ -136,6 +136,13 @@ define ->
 
       # Label for the button that allows editing a selected saved grid. Appears
       # in the “more” menu on the Saved tab.
+      inputColumns:
+        en_us: -> "Columns"
+        fr_fr: -> "Colonnes"
+        pt_br: -> "Colunas"
+        es_es: -> "Colunas"
+        pl_pl: -> "Kolumny"
+
       btnEditSelected:
         en_us: -> "Edit selected"
         fr_fr: -> "Modifier la sélection"
