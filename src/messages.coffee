@@ -278,6 +278,7 @@ define ->
         fr_fr: -> "Colonnes"
         pt_br: -> "Colunas"
         es_es: -> "Colunas"
+        pl_pl: -> "Kolumny"
 
       # Label for the “number of rows field in the grid form. Row refers
       # to a repeating squence of uniformely sized horizontal spaces.
@@ -653,7 +654,7 @@ define ->
         fr_fr: -> "Dupliquer les repères vers les documents ouverts"
         # TODO: pt_br
         # TODO: es_es
-        # TODO: pl_pl
+        pl_pl: -> "Powiel linie pomocnicze w otwartych dokumentach"
 
       # Menu item that duplicates all guides in the selected contexts to all
       # artboards. Appears in the flyout menu and the history state that results
@@ -663,7 +664,7 @@ define ->
         fr_fr: -> "Dupliquer les repères vers les plans de travail"
         # TODO: pt_br
         # TODO: es_es
-        # TODO: pl_pl
+        pl_pl: -> "Powiel linie pomocnicze do obszaru kompozycji"
 
       # Menu item that clears all guides in the document. Appears in the flyout
       # menu and the history state that results from the action.
@@ -672,7 +673,7 @@ define ->
         fr_fr: -> "Effacer tous les repères"
         # TODO: pt_br
         # TODO: es_es
-        # TODO: pl_pl
+        pl_pl: -> "Skasuj wszystkie linie pomocnicze"
 
       # Menu item that clears all guides in the currently selected artboards.
       # Appears in the flyout menu and the history state that results from the
@@ -682,7 +683,7 @@ define ->
         fr_fr: -> "Effacer les repères du plan de travail"
         # TODO: pt_br
         # TODO: es_es
-        # TODO: pl_pl
+        pl_pl: -> "Skasuj wszystkie linie pomocnicze na zaznaczonym obszarze kompozycji"
 
       # Menu item that clears canvas guides. Appears in the flyout menu and the
       # history state that results from the action.
@@ -691,7 +692,7 @@ define ->
         fr_fr: -> "Effacer les repères de la zone de travail"
         # TODO: pt_br
         # TODO: es_es
-        # TODO: pl_pl
+        pl_pl: -> "Skasuj linie pomocnicze na obszarze roboczym"
 
       # Menu item that clears all vertical guides in a given context. Appears
       # in the flyout menu and the history state that results from the action.
@@ -700,7 +701,7 @@ define ->
         fr_fr: -> "Effacer les repères verticaux"
         # TODO: pt_br
         # TODO: es_es
-        # TODO: pl_pl
+        pl_pl: -> "Skasuj pionowe linie pomocnicze"
 
       # Menu item that clears all horizontal guides in a given context. Appears
       # in the flyout menu and the history state that results from the action.
@@ -709,7 +710,7 @@ define ->
         fr_fr: -> "Effacer les repères horizontaux"
         # TODO: pt_br
         # TODO: es_es
-        # TODO: pl_pl
+        pl_pl: -> "Skasuj poziome linie pomocnicze"
 
       # Menu item that triggers the Google Analytics tracking setting prompt.
       # Appears in the flyout menu.
@@ -718,7 +719,7 @@ define ->
         fr_fr: -> "Préférences de suivi"
         # TODO: pt_br
         # TODO: es_es
-        # TODO: pl_pl
+        pl_pl: -> "Ustawienia śledzenia"
 
       # Menu item that opens the GuideGuide installation directory. Appears in
       # the flyout menu.
@@ -727,7 +728,7 @@ define ->
         fr_fr: -> "Désinstaller"
         # TODO: pt_br
         # TODO: es_es
-        # TODO: pl_pl
+        pl_pl: -> "Odinstaluj"
 
       # Menu item that toggles debug logging. Appears in the flyout menu.
       menuDebug:
@@ -735,7 +736,7 @@ define ->
         fr_fr: -> "Débogage"
         # TODO: pt_br
         # TODO: es_es
-        # TODO: pl_pl
+        pl_pl: -> "Debug"
 
       # Menu item that will open guideguide.me. Appears in the flyout menu of
       # the trial version.
@@ -744,7 +745,7 @@ define ->
         fr_fr: -> "Acheter GuideGuide"
         # TODO: pt_br
         # TODO: es_es
-        # TODO: pl_pl
+        pl_pl: -> "Kup GuideGuide"
 
       # Label for the history state that appears in documents in which guides
       # have been copied *to*. Will appear like:
@@ -755,7 +756,7 @@ define ->
         fr_fr: -> "Dupliquer les repères à partir de"
         # TODO: pt_br
         # TODO: es_es
-        # TODO: pl_pl
+        pl_pl: -> "Powiel linie pomocnicze z"
 
 
       # Error message that appears when a user attempts to import a non-json
