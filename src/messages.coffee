@@ -628,8 +628,8 @@ define ->
           usage information to help improve the product?
         "
         fr_fr: -> "
-          Autoriser GuideGuide à utiliser Google Analytics pour collecter 
-          anonymement des informations d'utilisation et aider à améliorer le 
+          Autoriser GuideGuide à utiliser Google Analytics pour collecter
+          anonymement des informations d'utilisation et aider à améliorer le
           plugin ?
         "
         pt_br: -> "
