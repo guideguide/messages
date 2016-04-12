@@ -747,6 +747,13 @@ define ->
         # TODO: es_es
         pl_pl: -> "Kup GuideGuide"
 
+      menuChangeDataFolder:
+        en_us: -> "Change data folder"
+        # TODO: fr_fr
+        # TODO: pt_br
+        # TODO: es_es
+        # TODO: pl_pl
+
       # Label for the history state that appears in documents in which guides
       # have been copied *to*. Will appear like:
       #
