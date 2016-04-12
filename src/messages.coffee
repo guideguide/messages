@@ -53,7 +53,7 @@ define ->
         fr_fr: -> "Collection"
         pt_br: -> "Salvo"
         es_es: -> "Guardado"
-        pl_pl: -> "Zapisano"
+        pl_pl: -> "Zapisane"
 
       # Label for the button that appears on part of the UI that applies the
       # guides of the form, grid notation, or selected grid.
@@ -260,7 +260,7 @@ define ->
         fr_fr: -> "Gouttière"
         pt_br: -> "Gutter"
         es_es: -> "Gutter"
-        pl_pl: -> "Odstęp między kolumnami"
+        pl_pl: -> "Odstęp"
 
       # Label for the “margin” fields in the grid form. Margin refers to the
       # space at the top, left, bottom, and right sides of the context.
@@ -487,7 +487,7 @@ define ->
         fr_fr: -> "Centre"
         pt_br: -> "Ponto médio"
         es_es: -> "Punto medio"
-        pl_pl: -> "Punkt środkowy"
+        pl_pl: -> "Środek"
 
       # Tooltip for the button at the bottom of the panel which clears all
       # guides within the context.
