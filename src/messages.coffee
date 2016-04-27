@@ -391,7 +391,7 @@ define ->
         pt_br: -> "Você ainda não tem nenhum grid! Crie os seu próprios…"
         es_es: -> "¡No hay ninguna retícula definida! Guarda la tuya o…"
         pl_pl: -> "Nie masz jeszcze wzorców! Zapisz swój własny lub…"
-        it_it: -> "Non hai ancora alcuna griglia. Salvane una o..."
+        it_it: -> "Non hai ancora alcuna griglia. Salvane una o…"
 
       # Message that appears in the grid notation field when it is empty. It
       # explains to the user what the field is for.
