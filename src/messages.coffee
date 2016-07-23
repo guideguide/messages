@@ -738,6 +738,14 @@ define ->
         # TODO: es_es
         pl_pl: -> "Debug"
 
+      # Menu item that toggles using selected layers. Appears in the flyout menu.
+      menuUseLayers:
+        en_us: -> "Use selected layers"
+        # TODO: fr_fr
+        # TODO: pt_br
+        # TODO: es_es
+        # TODO: pl_pl
+
       # Menu item that will open guideguide.me. Appears in the flyout menu of
       # the trial version.
       menuBuyGuideGuide:
