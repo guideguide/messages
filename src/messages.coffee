@@ -741,7 +741,7 @@ define ->
       # Menu item that toggles using selected layers. Appears in the flyout menu.
       menuUseLayers:
         en_us: -> "Use selected layers"
-        # TODO: fr_fr
+        fr_fr: -> "Utiliser les calques sélectionnés"
         # TODO: pt_br
         # TODO: es_es
         # TODO: pl_pl
@@ -757,7 +757,7 @@ define ->
 
       menuChangeDataFolder:
         en_us: -> "Change data folder"
-        # TODO: fr_fr
+        fr_fr: -> "Modifier l'emplacement des données"
         # TODO: pt_br
         # TODO: es_es
         # TODO: pl_pl
