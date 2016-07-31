@@ -352,7 +352,7 @@ define ->
       blankslateGrids:
         en_us: -> "You have no grids yet! Save your own or…"
         fr_fr: -> "Vous n'avez aucune grille ! Enregistrer la vôtre ou…"
-        pt_br: -> "Você ainda não tem nenhum grid! Crie os seu próprios…"
+        pt_br: -> "Você ainda não tem nenhum grid! Crie os seus próprios…"
         es_es: -> "¡No hay ninguna retícula definida! Guarda la tuya o…"
         pl_pl: -> "Nie masz jeszcze wzorców! Zapisz swój własny lub…"
 
@@ -652,7 +652,7 @@ define ->
       menuDuplicateToOpenDocuments:
         en_us: -> "Duplicate guides to open documents"
         fr_fr: -> "Dupliquer les repères vers les documents ouverts"
-        # TODO: pt_br
+        pt_br: -> "Duplique os guias para os documentos abertos"
         # TODO: es_es
         pl_pl: -> "Powiel linie pomocnicze w otwartych dokumentach"
 
@@ -662,7 +662,7 @@ define ->
       menuDuplicateToArtboards:
         en_us: -> "Duplicate guides to artboards"
         fr_fr: -> "Dupliquer les repères vers les plans de travail"
-        # TODO: pt_br
+        pt_br: -> "Duplique as guias para as áreas de trabalho"
         # TODO: es_es
         pl_pl: -> "Powiel linie pomocnicze do obszaru kompozycji"
 
@@ -671,7 +671,7 @@ define ->
       menuClearAllGuides:
         en_us: -> "Clear all guides"
         fr_fr: -> "Effacer tous les repères"
-        # TODO: pt_br
+        pt_br: -> "Limpar todos as guias"
         # TODO: es_es
         pl_pl: -> "Skasuj wszystkie linie pomocnicze"
 
@@ -681,7 +681,7 @@ define ->
       menuClearArtboardGuides:
         en_us: -> "Clear selected artboard guides"
         fr_fr: -> "Effacer les repères du plan de travail"
-        # TODO: pt_br
+        pt_br: -> "Limpar todas as guias selecionadas da area de trabalho"
         # TODO: es_es
         pl_pl: -> "Skasuj wszystkie linie pomocnicze na zaznaczonym obszarze kompozycji"
 
@@ -690,7 +690,7 @@ define ->
       menuClearCanvasGuides:
         en_us: -> "Clear canvas guides"
         fr_fr: -> "Effacer les repères de la zone de travail"
-        # TODO: pt_br
+        pt_br: -> "Limpar todas as guias da tela"
         # TODO: es_es
         pl_pl: -> "Skasuj linie pomocnicze na obszarze roboczym"
 
@@ -699,7 +699,7 @@ define ->
       menuClearVerticalGuides:
         en_us: -> "Clear vertical guides"
         fr_fr: -> "Effacer les repères verticaux"
-        # TODO: pt_br
+        pt_br: -> "Limpar todas as guias verticais"
         # TODO: es_es
         pl_pl: -> "Skasuj pionowe linie pomocnicze"
 
@@ -708,7 +708,7 @@ define ->
       menuClearHorizontalGuides:
         en_us: -> "Clear horizontal guides"
         fr_fr: -> "Effacer les repères horizontaux"
-        # TODO: pt_br
+        pt_br: -> "Limpar todas as guias horizontais"
         # TODO: es_es
         pl_pl: -> "Skasuj poziome linie pomocnicze"
 
@@ -717,7 +717,7 @@ define ->
       menuTrackingSettings:
         en_us: -> "Tracking settings"
         fr_fr: -> "Préférences de suivi"
-        # TODO: pt_br
+        pt_br: -> "Configurações de rastreamento"
         # TODO: es_es
         pl_pl: -> "Ustawienia śledzenia"
 
@@ -726,7 +726,7 @@ define ->
       menuUninstall:
         en_us: -> "Uninstall"
         fr_fr: -> "Désinstaller"
-        # TODO: pt_br
+        pt_br: -> "Desinstalar"
         # TODO: es_es
         pl_pl: -> "Odinstaluj"
 
@@ -734,7 +734,7 @@ define ->
       menuDebug:
         en_us: -> "Debug"
         fr_fr: -> "Débogage"
-        # TODO: pt_br
+        pt_br: -> "Depurar"
         # TODO: es_es
         pl_pl: -> "Debug"
 
@@ -742,7 +742,7 @@ define ->
       menuUseLayers:
         en_us: -> "Use selected layers"
         fr_fr: -> "Utiliser les calques sélectionnés"
-        # TODO: pt_br
+        pt_br: -> "User as camadas selecionadas"
         # TODO: es_es
         # TODO: pl_pl
 
@@ -751,14 +751,14 @@ define ->
       menuBuyGuideGuide:
         en_us: -> "Buy GuideGuide"
         fr_fr: -> "Acheter GuideGuide"
-        # TODO: pt_br
+        pt_br: -> "Comprar GuideGuide"
         # TODO: es_es
         pl_pl: -> "Kup GuideGuide"
 
       menuChangeDataFolder:
         en_us: -> "Change data folder"
         fr_fr: -> "Modifier l'emplacement des données"
-        # TODO: pt_br
+        pt_br: -> "Alterar a pasta de dados"
         # TODO: es_es
         # TODO: pl_pl
 
@@ -769,7 +769,7 @@ define ->
       historyDuplicateGuidesFrom:
         en_us: -> "Duplicate guides from"
         fr_fr: -> "Dupliquer les repères à partir de"
-        # TODO: pt_br
+        pt_br: -> "Duplicar guias de"
         # TODO: es_es
         pl_pl: -> "Powiel linie pomocnicze z"
 
