@@ -770,7 +770,7 @@ define ->
       menuConvertSelectionToGuides:
         en_us: -> "Convert selection to guides"
         fr_fr: -> "Convertir la sélection en repères"
-        # TODO: pt_br
+        pt_br: -> "Converter os guias selecionados"
         # TODO: es_es
         # TODO: pl_pl
 
