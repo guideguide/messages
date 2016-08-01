@@ -769,7 +769,7 @@ define ->
       # Illustrator only.
       menuConvertSelectionToGuides:
         en_us: -> "Convert selection to guides"
-        # TODO: fr_fr
+        fr_fr: -> "Convertir la sélection en repères"
         # TODO: pt_br
         # TODO: es_es
         # TODO: pl_pl
