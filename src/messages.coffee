@@ -738,7 +738,8 @@ define ->
         # TODO: es_es
         pl_pl: -> "Debug"
 
-      # Menu item that toggles using selected layers. Appears in the flyout menu.
+      # Menu item that toggles using selected layers. Appears in the flyout menu
+      # in Photoshop only.
       menuUseLayers:
         en_us: -> "Use selected layers"
         fr_fr: -> "Utiliser les calques sélectionnés"
@@ -755,10 +756,21 @@ define ->
         # TODO: es_es
         pl_pl: -> "Kup GuideGuide"
 
+      # Change the folder where GuideGuide stores its data. Appears in the
+      # flyout menu.
       menuChangeDataFolder:
         en_us: -> "Change data folder"
         fr_fr: -> "Modifier l'emplacement des données"
         pt_br: -> "Alterar a pasta de dados"
+        # TODO: es_es
+        # TODO: pl_pl
+
+      # Convert selected paths to guides. Appears in the flyout menu in
+      # Illustrator only.
+      menuConvertSelectionToGuides:
+        en_us: -> "Convert selection to guides"
+        # TODO: fr_fr
+        # TODO: pt_br
         # TODO: es_es
         # TODO: pl_pl
 
@@ -772,7 +784,6 @@ define ->
         pt_br: -> "Duplicar guias de"
         # TODO: es_es
         pl_pl: -> "Powiel linie pomocnicze z"
-
 
       # Error message that appears when a user attempts to import a non-json
       # file. Appears in the import modal.
