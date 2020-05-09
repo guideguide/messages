@@ -9,6 +9,7 @@ define ->
       "es_es"
       "pl_pl"
       "it_it"
+      "zh_tw"
     ]
 
     # Get a localized string.
@@ -39,6 +40,7 @@ define ->
         es_es: -> "Formulario"
         pl_pl: -> "Układ"
         it_it: -> "Crea"
+        zh_tw: -> "表單"
 
       # Lable for the second tab in the UI. Refers to the grid notation form for
       # "custom" grids.
@@ -49,6 +51,7 @@ define ->
         es_es: -> "Personalizado"
         pl_pl: -> "Własne"
         it_it: -> "Personalizzato"
+        zh_tw: -> "自訂"
 
       # Label for the third tab in the UI. Refers to the saved grid list.
       tabSaved:
@@ -58,6 +61,7 @@ define ->
         es_es: -> "Guardado"
         pl_pl: -> "Zapisane"
         it_it: -> "Preferiti"
+        zh_tw: -> "已儲存的網格"
 
       # Label for the button that appears on part of the UI that applies the
       # guides of the form, grid notation, or selected grid.
@@ -68,6 +72,7 @@ define ->
         es_es: -> "Añadir guías"
         pl_pl: -> "Dodaj linie pomocnicze"
         it_it: -> "Aggiungi guide"
+        zh_tw: -> "新增參考線"
 
       # Label for the default button for alert modals.
       btnOk:
@@ -77,6 +82,7 @@ define ->
         es_es: -> "Ok"
         pl_pl: -> "OK"
         it_it: -> "Ok"
+        zh_tw: -> "確認"
 
       # Label for confirmation modals. Clicking agrees.
       btnYes:
@@ -86,6 +92,7 @@ define ->
         es_es: -> "Si"
         pl_pl: -> "Tak"
         it_it: -> "Sì"
+        zh_tw: -> "是"
 
       # Label for the confirmation modals. Clicking rejects.
       btnNo:
@@ -95,6 +102,7 @@ define ->
         es_es: -> "No"
         pl_pl: -> "Nie"
         it_it: -> "No"
+        zh_tw: -> "否"
 
       # Label for the button that explains what grid notation is. Appears in the
       # “more” menu on the Custom tab.
@@ -105,6 +113,7 @@ define ->
         es_es: -> "¿Qué es esto?"
         pl_pl: -> "Co to jest?"
         it_it: -> "Cos'è questo?"
+        zh_tw: -> "這是什麼?"
 
       # Label for the button that opens the form that allows you to save a grid.
       # Appears in the “more” menu on the Grid and Custom tabs.
@@ -115,6 +124,7 @@ define ->
         es_es: -> "Guardar retícula"
         pl_pl: -> "Zapisz wzorzec"
         it_it: -> "Salva griglia"
+        zh_tw: -> "儲存網格"
 
       # Label for the confirmation modals. Clicking cancels the current action.
       btnCancel:
@@ -124,6 +134,7 @@ define ->
         es_es: -> "Cancelar"
         pl_pl: -> "Anuluj"
         it_it: -> "Annulla"
+        zh_tw: -> "取消"
 
       # Label for the button that resets the contents of the current form to
       # their default values. Appears in the “more” menu on the Grid and Custom
@@ -135,6 +146,7 @@ define ->
         es_es: -> "Resetear formulario"
         pl_pl: -> "Zresetuj układ"
         it_it: -> "Resetta i campi"
+        zh_tw: -> "重設"
 
       # Label for the button that encourages upgrading to the paid version of
       # GuideGuide. Appears in the “more” on all tabs when the trial mode has
@@ -146,6 +158,7 @@ define ->
         es_es: -> "Saber más"
         pl_pl: -> "Dowiedz się więcej"
         it_it: -> "Per saperne di più"
+        zh_tw: -> "了解更多"
 
       # Label for the button that allows editing a selected saved grid. Appears
       # in the “more” menu on the Saved tab.
@@ -156,6 +169,7 @@ define ->
         es_es: -> "Colunas"
         pl_pl: -> "Kolumny"
         it_it: -> "Colonne"
+        zh_tw: -> "欄"
 
       btnEditSelected:
         en_us: -> "Edit selected"
@@ -164,6 +178,7 @@ define ->
         es_es: -> "Editar seleccionados"
         pl_pl: -> "Edytuj zaznaczone"
         it_it: -> "Modifica la selezione"
+        zh_tw: -> "編輯所選"
 
       # Label for the button that deletes the selected saved grid. Appears in
       # the “more” menu on the Saved tab.
@@ -174,6 +189,7 @@ define ->
         es_es: -> "Borrar seleccionados"
         pl_pl: -> "Skasuj zaznaczone"
         it_it: -> "Cancella selezionati"
+        zh_tw: -> "刪除所選"
 
       # Label for the button that opens the import modal. Appears in the “more”
       # menu on the Saved tab.
@@ -184,6 +200,7 @@ define ->
         es_es: -> "Importar"
         pl_pl: -> "Import"
         it_it: -> "Importa"
+        zh_tw: -> "匯入"
 
       # Label for the button that opens the export modal Appears in the “more”
       # menu on the Saved tab.
@@ -194,6 +211,7 @@ define ->
         es_es: -> "Exportar"
         pl_pl: -> "Eksport"
         it_it: -> "Esporta"
+        zh_tw: -> "匯出"
 
       # Label for the button that bootstaps the default grids. Appears in the
       # blankslate view when all saved grids are removed.
@@ -204,6 +222,7 @@ define ->
         es_es: -> "Añadir retículas por defecto"
         pl_pl: -> "Dodaj domyślne wzorce"
         it_it: -> "Aggiungi griglie di default"
+        zh_tw: -> "新增預設網格"
 
       # Label for the button that allows for importing data from a file. Appears
       # in the import modal.
@@ -214,6 +233,7 @@ define ->
         es_es: -> "Desde un fichero"
         pl_pl: -> "Z pliku"
         it_it: -> "Da un file"
+        zh_tw: -> "從檔案匯入"
 
       # Label for the button that allows for importing data from a GitHub Gist.
       # Appears in the import modal.
@@ -226,6 +246,7 @@ define ->
         es_es: -> "Desde un Gist de GitHub"
         pl_pl: -> "Z Gistu GitHub"
         it_it: -> "Da un Gist Github"
+        zh_tw: -> "從GitHub Gist匯入"
 
       # Label for the button that allows for exporting data to a file. Appears
       # in the export modal.
@@ -236,6 +257,7 @@ define ->
         es_es: -> "A un fichero"
         pl_pl: -> "Do pliku"
         it_it: -> "In un file"
+        zh_tw: -> "匯出檔案"
 
       # Label for the button that allows for exporting data to a GitHub Gist.
       # Appears in the export modal.
@@ -248,6 +270,7 @@ define ->
         es_es: -> "A un Gist de GitHub"
         pl_pl: -> "Do Gistu GitHub"
         it_it: -> "In un Gist di Github"
+        zh_tw: -> "匯出至GitHub Gist"
 
       # Label for the button that creates a new grid from guides that exist in
       # the document. Appears in the “more” menu on the Saved tab.
@@ -258,6 +281,7 @@ define ->
         es_es: -> "Nueva retícula a partir de las guías existentes"
         pl_pl: -> "Nowy wzorzec z aktualnych linii pomocniczych"
         it_it: -> "Nuova griglia da guide esistenti"
+        zh_tw: -> "從現有參考線新增參考線"
 
       # Label for the “column width” field in the grid form. Width refers to how
       # wide each individual column is.
@@ -268,6 +292,7 @@ define ->
         es_es: -> "Anchura"
         pl_pl: -> "Szerokość"
         it_it: -> "Larghezza"
+        zh_tw: -> "欄寬"
 
       # Label for the “row height” field in the grid form. Height refers to how
       # tall each individual row is.
@@ -278,6 +303,7 @@ define ->
         es_es: -> "Altura"
         pl_pl: -> "Wysokość"
         it_it: -> "Altezza"
+        zh_tw: -> "列高"
 
       # Label for the “horizontal gutter” and “vertical gutter” fields in the
       # grid form. Gutter refers to the space between the columns or rows.
@@ -288,6 +314,7 @@ define ->
         es_es: -> "Gutter"
         pl_pl: -> "Odstęp"
         it_it: -> "Spaziatura"
+        zh_tw: -> "格線間距"
 
       # Label for the “margin” fields in the grid form. Margin refers to the
       # space at the top, left, bottom, and right sides of the context.
@@ -298,6 +325,7 @@ define ->
         es_es: -> "Margen"
         pl_pl: -> "Margines"
         it_it: -> "Margini"
+        zh_tw: -> "四邊留白"
 
       # Label for the “number of columns” field in the grid form. Column refers
       # to a repeating squence of uniformely sized vertical spaces.
@@ -308,6 +336,7 @@ define ->
         es_es: -> "Colunas"
         pl_pl: -> "Kolumny"
         it_it: -> "Colonne"
+        zh_tw: -> "欄"
 
       # Label for the “number of rows field in the grid form. Row refers
       # to a repeating squence of uniformely sized horizontal spaces.
@@ -318,6 +347,7 @@ define ->
         es_es: -> "Filas"
         pl_pl: -> "Wiersze"
         it_it: -> "Righe"
+        zh_tw: -> "列"
 
       # Label for the field that lets you define a GitHub Gist url from which to
       # import data. Appears in the import modal after “From a GitHub Gist” is
@@ -331,6 +361,7 @@ define ->
         es_es: -> "URL o ID de un Gist de GitHub"
         pl_pl: -> "URL lub ID Gistu GitHub"
         it_it: -> "URL o ID del Gist di Github"
+        zh_tw: -> "Github Gist的 ID 或 URL"
 
       # Label for the item that positions grids to the left. Appears in the
       # Position dropdown which appears when a column width is specified.
@@ -341,6 +372,7 @@ define ->
         es_es: -> "Izquierda"
         pl_pl: -> "Lewa"
         it_it: -> "Sinistra"
+        zh_tw: -> "靠左"
 
       # Label for the item that centers horizontal or veritcal grids. Appears in
       # the Position dropdown which appears when a column width or row height.
@@ -352,6 +384,7 @@ define ->
         es_es: -> "Centro"
         pl_pl: -> "Środkowa"
         it_it: -> "Centro"
+        zh_tw: -> "置中"
 
       # Label for the item that positions grids to the right. Appears in the
       # Position dropdown which appears when a column width is specified.
@@ -362,6 +395,7 @@ define ->
         es_es: -> "Derecha"
         pl_pl: -> "Prawa"
         it_it: -> "Destra"
+        zh_tw: -> "靠右"
 
       # Label for the item that positions grids to the top. Appears in the
       # Position dropdown which appears when a row height is specified.
@@ -372,6 +406,7 @@ define ->
         es_es: -> "Arriba"
         pl_pl: -> "Górna"
         it_it: -> "Sopra"
+        zh_tw: -> "靠上"
 
       # Label for the item that positions grids to the bottom. Appears in the
       # Position dropdown which appears when a row height is specified.
@@ -382,6 +417,7 @@ define ->
         es_es: -> "Abajo"
         pl_pl: -> "Dolna"
         it_it: -> "Sotto"
+        zh_tw: -> "靠下"
 
       # Message that appears in the blankslate view when no grids are saved.
       # Prompts the user to create a grid or bootstap the default grids.
@@ -392,6 +428,7 @@ define ->
         es_es: -> "¡No hay ninguna retícula definida! Guarda la tuya o…"
         pl_pl: -> "Nie masz jeszcze wzorców! Zapisz swój własny lub…"
         it_it: -> "Non hai ancora alcuna griglia. Salvane una o…"
+        zh_tw: -> "您尚未儲存任何網格，請新增一個或…"
 
       # Message that appears in the grid notation field when it is empty. It
       # explains to the user what the field is for.
@@ -404,6 +441,7 @@ define ->
         es_es: -> "Escribe aquí la notación de retícula"
         pl_pl: -> "Wpisz tutaj definicję w odpowiedniej notacji"
         it_it: -> "Scrivi qui il codice della tua griglia"
+        zh_tw: -> "請在此輸入網格語法"
 
       # Message that appears when the grid name field is empty. Appears when
       # saving a grid.
@@ -414,6 +452,7 @@ define ->
         es_es: -> "Nombra tu retícula"
         pl_pl: -> "Nazwij swój wzorzec"
         it_it: -> "Dai un nome alla tua griglia"
+        zh_tw: -> "請為您的網格命名"
 
       # Default title for new grids. Appears when saving a grid.
       titleUntitledGrid:
@@ -423,6 +462,7 @@ define ->
         es_es: -> "Retícula Sin Título"
         pl_pl: -> "Nienazwany wzorzec"
         it_it: -> "Griglia senza titolo"
+        zh_tw: -> "未命名網格"
 
       # Name for a default grid which “outlines” the context by placing guides
       # on the top, left, right, and bottom sides.
@@ -433,6 +473,7 @@ define ->
         es_es: -> "Contorno"
         pl_pl: -> "Kontur"
         it_it: -> "Contorno"
+        zh_tw: -> "邊線"
 
       # Name for the default two column grid.
       titleTwoColumnGrid:
@@ -442,6 +483,7 @@ define ->
         es_es: -> "Retícula de dos columnas"
         pl_pl: -> "Dwie kolumny"
         it_it: -> "Griglia a due colonne"
+        zh_tw: -> "兩欄網格"
 
       # Name for the default three column grid.
       titleThreeColumnGrid:
@@ -451,6 +493,7 @@ define ->
         es_es: -> "Retícula de tres columnas"
         pl_pl: -> "Trzy kolumny"
         it_it: -> "Griglia a tre colonne"
+        zh_tw: -> "三欄網格"
 
       # Title that appears at the top of the panel while saving a grid.
       titleSaveYourGrid:
@@ -460,6 +503,7 @@ define ->
         es_es: -> "Guarda tu retícula"
         pl_pl: -> "Zapisz swój wzorzec"
         it_it: -> "Salva la tua griglia"
+        zh_tw: -> "儲存您的網格"
 
       # Title that appears at the top of the panel while the import modal is
       # active.
@@ -470,6 +514,7 @@ define ->
         es_es: -> "Importar reticulas"
         pl_pl: -> "Importuj wzorce"
         it_it: -> "Importa griglie"
+        zh_tw: -> "匯入網格"
 
       # Title that appears at the top of the panel while the export modal is
       # active.
@@ -480,6 +525,7 @@ define ->
         es_es: -> "Exportar retículas"
         pl_pl: -> "Eksportuj wzorce"
         it_it: -> "Esporta griglie"
+        zh_tw: -> "匯出網格"
 
       # Title that appears at the top alert message that will appear if there is
       # an error while exporting grid data.
@@ -490,6 +536,7 @@ define ->
         es_es: -> "Error de exportación"
         pl_pl: -> "Błąd podczas eksportu"
         it_it: -> "Errore durante l'esportazione"
+        zh_tw: -> "匯出錯誤"
 
       # Tooltip for the button at the bottom of the panel which places a guide
       # on the left side of the context.
@@ -500,6 +547,7 @@ define ->
         es_es: -> "Borde izquierdo"
         pl_pl: -> "Lewy margines"
         it_it: -> "Bordo sinistro"
+        zh_tw: -> "左邊界"
 
       # Tooltip for the button at the bottom of the panel which places a guide
       # on the right side of the context.
@@ -510,6 +558,7 @@ define ->
         es_es: -> "Borde derecho"
         pl_pl: -> "Prawy margines"
         it_it: -> "Bordo destro"
+        zh_tw: -> "右邊界"
 
       # Tooltip for the button at the bottom of the panel which places a guide
       # on the top of the context.
@@ -520,6 +569,7 @@ define ->
         es_es: -> "Borde superior"
         pl_pl: -> "Górny margines"
         it_it: -> "Bordo superiore"
+        zh_tw: -> "上邊界"
 
       # Tooltip for the button at the bottom of the panel which places a guide
       # on the bottom of the context.
@@ -530,6 +580,7 @@ define ->
         es_es: -> "Borde inferior"
         pl_pl: -> "Dolny margines"
         it_it: -> "Bordo inferiore"
+        zh_tw: -> "下邊界"
 
       # Tooltip for the button at the bottom of the panel which places a guide
       # in the middle of the context.
@@ -540,6 +591,7 @@ define ->
         es_es: -> "Punto medio"
         pl_pl: -> "Środek"
         it_it: -> "Centro"
+        zh_tw: -> "中點"
 
       # Tooltip for the button at the bottom of the panel which clears all
       # guides within the context.
@@ -550,6 +602,7 @@ define ->
         es_es: -> "Limpiar guías"
         pl_pl: -> "Skasuj linie pomocnicze"
         it_it: -> "Cancella guide"
+        zh_tw: -> "清除參考線"
 
       # Tooltip for the “eye” button to the right of the tabs at the top of the
       # panel which toggles the guide visibility setting.
@@ -560,6 +613,7 @@ define ->
         es_es: -> "Alternar visibilidad de guías"
         pl_pl: -> "Przełącz widoczność wzorca"
         it_it: -> "Mostra/nascondi guide"
+        zh_tw: -> "隱藏或顯示參考線"
 
       # Message that appears in the description of a GitHub Gist that contains
       # exported guide data.
@@ -578,6 +632,7 @@ define ->
         "
         pl_pl: -> "To są dane wzorca wyeksportowane przez wtyczkę GuideGuide."
         it_it: -> "Dati griglia esportati dal plugin GuideGuide"
+        zh_tw: -> "這是GuideGuide插件匯出的網格資料"
 
       # Message that encourages people to buy GuideGuide. Appears in place of
       # the Custom tab after the trial has expired.
@@ -599,6 +654,7 @@ define ->
         it_it: -> "
            Acquista la versione completa per creare qualsiai griglia desideri
         "
+        zh_tw: -> "購買完整版以創造任何您想得到的網格。"
 
       # Message that encourages people to buy GuideGuide. Appears in place of
       # the Saved tab after the trial has expired.
@@ -620,6 +676,7 @@ define ->
         it_it: -> "
            Acquista la versione completa per salvare le griglie che usi più spesso
         "
+        zh_tw: -> "購買完整版以儲存您最常用的網格。"
 
       # Message that encourages people to buy GuideGuide. Appears at the bottom
       # of all tabs after the trial has expired.
@@ -642,6 +699,7 @@ define ->
         it_it: -> "
            Acquista la versione completa per cancellare e aggiungere griglie a piacimento
         "
+        zh_tw: -> "購買完整版來快速清除或新增參考線。"
 
       # Title for the alert message that appears at launch after the trial
       # expires.
@@ -652,6 +710,7 @@ define ->
         es_es: -> "Versión gratuita"
         pl_pl: -> "Wersja bezpłatna"
         it_it: -> "Versione gratuita"
+        zh_tw: -> "免費版"
 
       # Message that appears in the alert message that appears at launch after
       # the trial expires.
@@ -678,6 +737,9 @@ define ->
         it_it: -> "
            Hai usato GuideGuide 30 volte! Puoi comprare la versione completa per sbloccare nuovamente tutte le funzionalità
         "
+        zh_tw: -> "
+        您已使用GuideGuide 30次! 您可以購買完整版來解鎖完整功能。
+        "
 
       # Title of the alert that appears on first launch that requests permission
       # to submit usage data via Google Analytics.
@@ -688,6 +750,7 @@ define ->
         es_es: -> "Enviar datos de uso"
         pl_pl: -> "Wysyłaj informacje o używaniu"
         it_it: -> "Invia statistiche di utilizzo"
+        zh_tw: -> "傳送使用紀錄"
 
       # Message for the alert that appears on first launch that requests permission
       # to submit usage data via Google Analytics.
@@ -715,6 +778,7 @@ define ->
           anonimowych danych używania, aby ulepszyć produkt?
         "
         it_it: -> "Autorizzi GuideGuide all'uso di Google Analytics per raccogliere anonimamente statistiche di utilizzo, allo scopo migliorare il plugin?"
+        zh_tw: -> "您允許 GuideGuide 透過 Google Analytics 傳送匿名使用資訊來改進產品嗎?"
 
       # Menu item that duplicates all guides in the selected contexts to all
       # documents. Appears in the flyout menu and the history state that results
@@ -726,6 +790,7 @@ define ->
         # TODO: es_es
         pl_pl: -> "Powiel linie pomocnicze w otwartych dokumentach"
         it_it: -> "Duplica guide nei documenti aperti"
+        zh_tw: -> "複製參考線到已開啟的文件"
         
 
       # Menu item that duplicates all guides in the selected contexts to all
@@ -738,6 +803,7 @@ define ->
         # TODO: es_es
         pl_pl: -> "Powiel linie pomocnicze do obszaru kompozycji"
         it_it: -> "Duplica guide nelle tavole da disegno"
+        zh_tw: -> "複製參考線到工作區域"
 
       # Menu item that clears all guides in the document. Appears in the flyout
       # menu and the history state that results from the action.
@@ -748,6 +814,7 @@ define ->
         # TODO: es_es
         pl_pl: -> "Skasuj wszystkie linie pomocnicze"
         it_it: -> "Cancella tutte le guide"
+        zh_tw: -> "清除所有參考線"
 
       # Menu item that clears all guides in the currently selected artboards.
       # Appears in the flyout menu and the history state that results from the
@@ -759,6 +826,7 @@ define ->
         # TODO: es_es
         pl_pl: -> "Skasuj wszystkie linie pomocnicze na zaznaczonym obszarze kompozycji"
         it_it: -> "Cancella le guide nelle tavole da disegno selezionate"
+        zh_tw: -> "清除所選工作區域中的參考線"
 
       # Menu item that clears canvas guides. Appears in the flyout menu and the
       # history state that results from the action.
@@ -769,6 +837,7 @@ define ->
         # TODO: es_es
         pl_pl: -> "Skasuj linie pomocnicze na obszarze roboczym"
         it_it: -> "Cancella le guide nell'area di lavoro"
+        zh_tw: -> "清除版面中的參考線"
 
       # Menu item that clears all vertical guides in a given context. Appears
       # in the flyout menu and the history state that results from the action.
@@ -779,6 +848,7 @@ define ->
         # TODO: es_es
         pl_pl: -> "Skasuj pionowe linie pomocnicze"
         it_it: -> "Cancella guide verticali"
+        zh_tw: -> "清除垂直參考線"
 
       # Menu item that clears all horizontal guides in a given context. Appears
       # in the flyout menu and the history state that results from the action.
@@ -789,6 +859,7 @@ define ->
         # TODO: es_es
         pl_pl: -> "Skasuj poziome linie pomocnicze"
         it_it: -> "Cancella guide orizzontali"
+        zh_tw: -> "清除水平參考線"
 
       # Menu item that triggers the Google Analytics tracking setting prompt.
       # Appears in the flyout menu.
@@ -799,6 +870,7 @@ define ->
         # TODO: es_es
         pl_pl: -> "Ustawienia śledzenia"
         it_it: -> "Opzioni di condivisione"
+        zh_tw: -> "使用記錄設定"
 
       # Menu item that opens the GuideGuide installation directory. Appears in
       # the flyout menu.
@@ -809,6 +881,7 @@ define ->
         # TODO: es_es
         pl_pl: -> "Odinstaluj"
         it_it: -> "Disinstalla"
+        zh_tw: -> "移除"
 
       # Menu item that toggles debug logging. Appears in the flyout menu.
       menuDebug:
@@ -818,6 +891,7 @@ define ->
         # TODO: es_es
         pl_pl: -> "Debug"
         it_it: -> "Debug"
+        zh_tw: -> "除錯"
 
       # Menu item that toggles using selected layers. Appears in the flyout menu
       # in Photoshop only.
@@ -827,6 +901,7 @@ define ->
         pt_br: -> "User as camadas selecionadas"
         # TODO: es_es
         # TODO: pl_pl
+        zh_tw: -> "使用所選圖層"
 
       # Menu item that will open guideguide.me. Appears in the flyout menu of
       # the trial version.
@@ -837,6 +912,7 @@ define ->
         # TODO: es_es
         pl_pl: -> "Kup GuideGuide"
         it_it: -> "Acquista GuideGuide"
+        zh_tw: -> "購買GuideGuide"
 
       # Change the folder where GuideGuide stores its data. Appears in the
       # flyout menu.
@@ -846,6 +922,7 @@ define ->
         pt_br: -> "Alterar a pasta de dados"
         # TODO: es_es
         # TODO: pl_pl
+        zh_tw: -> "變更資料夾"
 
       # Convert selected paths to guides. Appears in the flyout menu in
       # Illustrator only.
@@ -856,6 +933,7 @@ define ->
         # TODO: es_es
         # TODO: pl_pl
         it_it: -> "Cambia cartella delle preferenze"
+        zh_tw: -> "轉換為參考線"
 
       # Label for the history state that appears in documents in which guides
       # have been copied *to*. Will appear like:
@@ -868,6 +946,7 @@ define ->
         # TODO: es_es
         pl_pl: -> "Powiel linie pomocnicze z"
         it_it: -> "Duplica guide da"
+        zh_tw: -> "複製參考線從"
 
       # Error message that appears when a user attempts to import a non-json
       # file. Appears in the import modal.
@@ -878,6 +957,7 @@ define ->
         es_es: -> "El fichero seleccionado debe ser un fichero .json"
         pl_pl: -> "Wybrany plik musi być plikiem .json"
         it_it: -> "Il file selezionato deve essere un .json"
+        zh_tw: -> "所選的檔案必須是 .json"
 
       # Error message that appears when when a chosen import file cannot be
       # read. Appears in the import modal.
@@ -888,6 +968,7 @@ define ->
         es_es: -> "El fichero seleccionado no pudo leerse"
         pl_pl: -> "Nie można odczytać wybranego pliku"
         it_it: -> "Il file selezionato non può essere letto"
+        zh_tw: -> "無法讀取所選檔案"
 
       # Error that appears when grid notation does not recognize a command.
       #
@@ -899,6 +980,7 @@ define ->
         es_es: -> "Comando no reconocido"
         pl_pl: -> "Nierozpoznana komenda"
         it_it: -> "Comando sconosciuto"
+        zh_tw: -> "無法辨識的網格語法"
 
       # Error that appears when a user attempts to use an empty string in the
       # custom form.
@@ -911,6 +993,7 @@ define ->
         es_es: -> "Esta cadena no contiene ninguna retícula"
         pl_pl: -> "Ten ciąg znaków nie zawiera żadnych wzorców"
         it_it: -> "Questa stringa non contiene alcuna griglia"
+        zh_tw: -> "您未輸入任何網格語法"
 
       # Error that appears when a grid notation variable contains a wildcard.
       # Variable refers to a property that is defined with a dynamic value,
@@ -932,6 +1015,7 @@ define ->
         "
         pl_pl: -> "Zmienne używane do wypełniania nie mogą zawierać wieloznaczników"
         it_it: -> "Le variabili usate come ripetizioni non possono contenere caratteri jolly"
+        zh_tw: -> "用於Fills的變數不能包含萬用字元"
 
       # Error that appears when a grid notation string contains more than one
       # fill. Fill refers to a command that effectively means “Do this thing as
@@ -946,6 +1030,7 @@ define ->
         es_es: -> "Una retícula no puede contener más de un relleno"
         pl_pl: -> "Wzorzec nie może zawierać więcej niż jednego wypełnienia"
         it_it: -> "Una griglia non può contenere più di un riempimento"
+        zh_tw: -> "一個網格不能有一個以上的Fill"
 
       # Error that appears when a grid notation variable contains a fill
       # command. Variable refers to a property that is defined with a dynamic
@@ -961,6 +1046,7 @@ define ->
         es_es: -> "Las variables no pueden contener rellenos"
         pl_pl: -> "Zmienne nie mogą zawierać wypełnień"
         it_it: -> "Le variabili non possono contenere riempimenti"
+        zh_tw: -> "變數不能含有Fill"
 
       # Error that appears when a variable is used before its value has been
       # defined. Variable refers to a property that is defined with a dynamic
@@ -974,3 +1060,4 @@ define ->
         es_es: -> "Variable indefinida"
         pl_pl: -> "Niezdefiniowana zmienna"
         it_it: -> "Variabile non definita"
+        zh_tw: -> "未定義的變數"
